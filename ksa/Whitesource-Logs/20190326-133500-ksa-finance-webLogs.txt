@@ -1,0 +1,248 @@
+[INFO] [2019-03-26 13:35:02,985 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Fetch Configuration ------------------------
+------------------------------------------------------------------------
+[INFO] [2019-03-26 13:35:03,166 +0000] - FSA Configuration {
+projectPerFolder=false
+connectionTimeOut=60
+checkPolicies=false
+serviceUrl=https://saas.whitesourcesoftware.com/agent
+forceCheckAllDependencies=false
+forceUpdate=false
+forceUpdateFailBuildOnPolicyViolation=false
+updateTypeValue=OVERRIDE
+updateInventory=true
+generateScanReport=false
+scanReportTimeoutMinutes=10
+analyzeFrameworks=true
+analyzeFrameworkIds=[]
+offline=false
+zip=false
+prettyJson=true
+resolveAllDependencies=true
+ignoreSourceFiles=false
+npm: {npmRunPreStep=false, appPath=[C:/Users/phyto/Documents/Source/KSA/ksa/ksa/ksa-web-root/ksa-finance-web/target/ksa-finance-web-3.9.0.jar]
+npmIgnoreScripts=false, npmResolveDependencies=true, npmIncludeDevDependencies=true, npmTimeoutDependenciesCollector=60, npmIgnoreNpmLsErrors=true, npmYarnProject=false, npmYarnFrozenLockfile=false, npmIgnoreSourceFiles=true, npmIdentifyByNameAndVersion=false, npmProjectNameFromDependencyFile=false, }
+bower: {bowerResolveDependencies=false, bowerRunPreStep=false, bowerIgnoreSourceFiles=false, }
+nuget: {nugetResolveDependencies=false, nugetRestoreDependencies=false, nugetRunPreStep=false, nugetIgnoreSourceFiles=true, nugetResolvePackagesConfigFiles=true, nugetResolveCsProjFiles=true, nugetResolveNuspecFiles=true, nugetPreferredEnvironment=, nugetPackagesDirectory=, }
+maven: {mavenResolveDependencies=true, mavenIgnoredScopes=[All], mavenAggregateModules=true, mavenIgnorePomModules=true, mavenIgnoreSourceFiles=false, mavenRunPreStep=false, mavenIgnoreDependencyTreeErrors=false, mavenEnvironmentPath=, mavenM2Path=, }
+python: {pythonResolveDependencies=false, pipPath=pip, pythonPath=python, pythonIgnorePipInstallErrors=false, pythonInstallVirtualenv=false, pythonResolveHierarchyTree=true, pythonRequirementsFileIncludes=[requirements.txt, Pipfile], pythonResolveSetupPyFiles=false, pythonIgnoreSourceFiles=true, ignorePipEnvInstallErrors=false, pipenvInstallDevDependencies=false, runPipenvPreStep=false, pythonIsWssPluginInstalled=false, pythonUninstallWssPlugin=false, }
+gradle: {gradleResolveDependencies=true, gradleRunAssembleCommand=true, gradleAggregateModules=true, gradlePreferredEnvironment=gradle, gradleLocalRepositoryPath=, gradleIgnoreSourceFiles=false, gradleRunPreStep=false, gradleIgnoredScopes=[], }
+paket: {paketResolveDependencies=false, paketIgnoredScopes=, paketRunPreStep=false, paketPath=, paketIgnoreSourceFiles=true, }
+go: {goResolveDependencies=false, goDependencyManager=, goCollectDependenciesAtRuntime=false, goGlideIgnoreTestPackages=true, goGlideIgnoreSourceFiles=false, goGradleEnableTaskAlias=false, }
+ruby: {rubyResolveDependencies=false, rubyRunBundleInstall=false, rubyOverwriteGemFile=false, rubyInstallMissingGems=false, rubyIgnoreSourceFiles=true, }
+php: {phpResolveDependencies=false, phpRunPreStep=false, phpIncludeDevDependencies=false, }
+sbt: {sbtResolveDependencies=false, sbtAggregateModules=false, sbtRunPreStep=false, sbtTargetFolder=[], sbtIgnoreSourceFiles=false, }
+html: {htmlResolveDependencies=false, }
+cocoapods: {cocoapodsResolveDependencies=false, cocoapodsRunPreStep=false, cocoapodsIgnoreSourceFiles=true, }
+hex: {hexResolveDependencies=false, hexRunPreStep=false, hexAggregateModules=false, hexIgnoreSourceFiles=true, }
+imageNames=
+imageTags=
+imageDigests=
+forceDelete=false
+remoteDockerEnabled=false
+maxScanImages=0
+forcePull=false
+maxPullImages=10
+loginSudo=true
+amazonRegistryIds=[]
+remoteDockerAmazonEnabled=false
+amazonRegion=east
+amazonMaxPullImages=0
+remoteDockerAzureEnabled=false
+azureUserName=
+azureUserPassword=
+azureRegistryNames=[]
+remoteDockerArtifactoryEnabled=false
+artifactoryUrl=
+artifactoryUserName=
+artifactoryUserPassword=
+artifactoryRepositoryNames=[]
+remoteDockerGoogleContainerEnabled=false
+googleRepositoryNames=[]
+googleActiveAccount=
+serverlessConfiguration=
+fileListPath=
+dependencyDirs=[C:/Users/phyto/Documents/Source/KSA/ksa/ksa/ksa-web-root/ksa-finance-web]
+configFilePath=C:\Users\phyto\Documents\Source\KSA\whitesource-fs-agent.config
+includes=[**/*.jar, **/*.js]
+excludes=[**/*sources.jar, **/*javadoc.jar]
+dockerIncludes=[.*.*]
+dockerExcludes=[]
+dockerContainerIncludes=[.*.*]
+dockerContainerExcludes=[]
+pythonRequirementsFileIncludes=[requirements.txt]
+archiveExtractionDepth=0
+archiveIncludes=[]
+archiveExcludes=[]
+followSymlinks=true
+dockerScan=false
+globCaseSensitive=false
+projectPerFolderIncludes=[*]
+projectPerFolderExcludes=[]
+excludeDependenciesFromNodes=[]
+enableGenerateProjectDetailsJson=false
+apiToken=******
+userKey=
+projectVersion=
+projectToken=
+projectPerSubFolder=false
+requesterEmail=
+productToken=
+productName=Effective_Usage_Demo_9
+productVersion=
+projectName=ksa-finance-web
+scanComment=
+requireKnownSha1=false
+scanPackageManager=false
+scanDockerImages=false
+scanDockerContainers=false
+scanServerlessFunctions=false
+logLevel=debug
+}
+[INFO] [2019-03-26 13:35:03,171 +0000] - 
+------------------------------------------------------------------------
+-------------------- End: Fetch Configuration --------------------------
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 13:35:03,224 +0000] - Available processors (cores): 	8
+Free memory (Mb): 	108
+Max memory (Mb): 	1785
+Total memory (Mb): 	121
+Used memory (Mb): 	12
+[INFO] [2019-03-26 13:35:03,225 +0000] - Starting analysis
+[INFO] [2019-03-26 13:35:03,226 +0000] - Scanning directories [C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-finance-web] for package dependencies (may take a few minutes)
+[INFO] [2019-03-26 13:35:03,228 +0000] - Included file types: **/*.jar,**/*.js
+[INFO] [2019-03-26 13:35:03,228 +0000] - Excluded file types: **/*sources.jar,**/*javadoc.jar
+[INFO] [2019-03-26 13:35:03,228 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching 'Includes' Pattern -----
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 13:35:03,229 +0000] - Scanning C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-finance-web
+[INFO] [2019-03-26 13:35:03,327 +0000] - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching 'Includes' Pattern -------
+------------------------------------------------------------------------
+[INFO] [2019-03-26 13:35:03,330 +0000] - Attempting to resolve dependencies
+[INFO] [2019-03-26 13:35:03,330 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step & Resolve Dependencies ------------
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 13:35:03,420 +0000] - found folders:
+[DEBUG] [2019-03-26 13:35:03,421 +0000] - C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root
+[DEBUG] [2019-03-26 13:35:03,421 +0000] - 
+[DEBUG] [2019-03-26 13:35:03,428 +0000] - 
+[DEBUG] [2019-03-26 13:35:03,430 +0000] - Finishing reduce dependencies
+[INFO] [2019-03-26 13:35:03,433 +0000] - Trying to resolve MAVEN dependencies
+[INFO] [2019-03-26 13:35:03,434 +0000] - topFolder = C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-finance-web
+[DEBUG] [2019-03-26 13:35:03,435 +0000] - topFolder = C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-finance-web
+[DEBUG] [2019-03-26 13:35:03,734 +0000] - start execute command 'cmd /c mvn -v' in 'C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-finance-web'
+[DEBUG] [2019-03-26 13:35:03,757 +0000] - trying to read lines using 'cmd /c mvn -v'
+[DEBUG] [2019-03-26 13:35:04,991 +0000] - Read line #1: Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T19:41:47+01:00)
+[DEBUG] [2019-03-26 13:35:04,992 +0000] - Read line #2: Maven home: C:\Users\phyto\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\..
+[DEBUG] [2019-03-26 13:35:04,992 +0000] - Read line #3: Java version: 1.8.0_181, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jre1.8.0_181
+[DEBUG] [2019-03-26 13:35:04,992 +0000] - Read line #4: Default locale: en_GB, platform encoding: Cp1252
+[DEBUG] [2019-03-26 13:35:04,992 +0000] - Read line #5: OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] [2019-03-26 13:35:05,096 +0000] - Finished reading 5 lines
+[DEBUG] [2019-03-26 13:35:05,097 +0000] - error in execute command 1
+[DEBUG] [2019-03-26 13:35:05,097 +0000] - Failed to get maven version
+[WARN] [2019-03-26 13:35:05,097 +0000] - Please install maven
+[INFO] [2019-03-26 13:35:05,122 +0000] - 
+------------------------------------------------------------------------
+-------------------- End: Pre-Step & Resolve Dependencies --------------
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 13:35:05,125 +0000] - total resolved projects = 1
+[INFO] [2019-03-26 13:35:05,128 +0000] - Total dependencies found for all resolvers: 0 (0 unique)
+[INFO] [2019-03-26 13:35:05,128 +0000] - Scanning directories [C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-finance-web] for matching source/binary file types (may take a few minutes)
+[DEBUG] [2019-03-26 13:35:05,128 +0000] - Scanning C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-finance-web
+[INFO] [2019-03-26 13:35:05,197 +0000] - Total files found according to the includes/excludes pattern: 65
+[INFO] | [                                 ] 0% - 0 of 65 files
+[INFO] | [                                 ] 1% - 1 of 65 files
+[INFO] | [#                                ] 3% - 2 of 65 files
+[INFO] | [#                                ] 4% - 3 of 65 files
+[INFO] / [##                               ] 6% - 4 of 65 files
+[INFO] / [##                               ] 7% - 5 of 65 files
+[INFO] / [###                              ] 9% - 6 of 65 files
+[INFO] / [###                              ] 10% - 7 of 65 files
+[INFO] - [####                             ] 12% - 8 of 65 files
+[INFO] - [####                             ] 13% - 9 of 65 files
+[INFO] - [#####                            ] 15% - 10 of 65 files
+[INFO] - [#####                            ] 16% - 11 of 65 files
+[INFO] \ [######                           ] 18% - 12 of 65 files
+[INFO] \ [######                           ] 20% - 13 of 65 files
+[INFO] \ [#######                          ] 21% - 14 of 65 files
+[INFO] \ [#######                          ] 23% - 15 of 65 files
+[INFO] | [########                         ] 24% - 16 of 65 files
+[INFO] | [########                         ] 26% - 17 of 65 files
+[INFO] | [#########                        ] 27% - 18 of 65 files
+[INFO] | [#########                        ] 29% - 19 of 65 files
+[INFO] / [##########                       ] 30% - 20 of 65 files
+[INFO] / [##########                       ] 32% - 21 of 65 files
+[INFO] / [###########                      ] 33% - 22 of 65 files
+[INFO] / [###########                      ] 35% - 23 of 65 files
+[INFO] - [############                     ] 36% - 24 of 65 files
+[INFO] - [############                     ] 38% - 25 of 65 files
+[INFO] - [#############                    ] 40% - 26 of 65 files
+[INFO] - [#############                    ] 41% - 27 of 65 files
+[DEBUG] [2019-03-26 13:35:06,059 +0000] - Error parsing JavaScript file: missing ) after argument list
+[DEBUG] [2019-03-26 13:35:06,060 +0000] - Failed to calculate javaScript hash: C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-finance-web\src\main\resources\ui\finance\invoice\invoice-query-condition.js
+[INFO] \ [##############                   ] 43% - 28 of 65 files
+[INFO] \ [##############                   ] 44% - 29 of 65 files
+[DEBUG] [2019-03-26 13:35:06,111 +0000] - Ignoring file with size 453 bytes: minimum file size is 512B
+[DEBUG] [2019-03-26 13:35:06,125 +0000] - Ignoring file with size 492 bytes: minimum file size is 512B
+[INFO] \ [###############                  ] 46% - 30 of 65 files
+[INFO] \ [###############                  ] 47% - 31 of 65 files
+[INFO] | [################                 ] 49% - 32 of 65 files
+[INFO] | [################                 ] 50% - 33 of 65 files
+[INFO] | [#################                ] 52% - 34 of 65 files
+[INFO] | [#################                ] 53% - 35 of 65 files
+[INFO] / [##################               ] 55% - 36 of 65 files
+[INFO] / [##################               ] 56% - 37 of 65 files
+[INFO] / [###################              ] 58% - 38 of 65 files
+[INFO] / [####################             ] 60% - 39 of 65 files
+[INFO] - [####################             ] 61% - 40 of 65 files
+[INFO] - [#####################            ] 63% - 41 of 65 files
+[INFO] - [#####################            ] 64% - 42 of 65 files
+[INFO] - [######################           ] 66% - 43 of 65 files
+[INFO] \ [######################           ] 67% - 44 of 65 files
+[INFO] \ [#######################          ] 69% - 45 of 65 files
+[INFO] \ [#######################          ] 70% - 46 of 65 files
+[INFO] \ [########################         ] 72% - 47 of 65 files
+[INFO] | [########################         ] 73% - 48 of 65 files
+[INFO] | [#########################        ] 75% - 49 of 65 files
+[INFO] | [#########################        ] 76% - 50 of 65 files
+[INFO] | [##########################       ] 78% - 51 of 65 files
+[INFO] / [##########################       ] 80% - 52 of 65 files
+[INFO] / [###########################      ] 81% - 53 of 65 files
+[INFO] / [###########################      ] 83% - 54 of 65 files
+[INFO] / [############################     ] 84% - 55 of 65 files
+[INFO] - [############################     ] 86% - 56 of 65 files
+[INFO] - [#############################    ] 87% - 57 of 65 files
+[INFO] - [#############################    ] 89% - 58 of 65 files
+[INFO] - [##############################   ] 90% - 59 of 65 files
+[DEBUG] [2019-03-26 13:35:06,729 +0000] - Error parsing JavaScript file: missing ) after argument list
+[DEBUG] [2019-03-26 13:35:06,730 +0000] - Failed to calculate javaScript hash: C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-finance-web\target\classes\ui\finance\invoice\invoice-query-condition.js
+[INFO] \ [##############################   ] 92% - 60 of 65 files
+[INFO] \ [###############################  ] 93% - 61 of 65 files
+[DEBUG] [2019-03-26 13:35:06,757 +0000] - Ignoring file with size 453 bytes: minimum file size is 512B
+[DEBUG] [2019-03-26 13:35:06,766 +0000] - Ignoring file with size 492 bytes: minimum file size is 512B
+[INFO] \ [###############################  ] 95% - 62 of 65 files
+[INFO] \ [################################ ] 96% - 63 of 65 files
+[INFO] | [################################ ] 98% - 64 of 65 files
+[INFO] | [#################################] 100% - 65 of 65 files
+[INFO] [2019-03-26 13:35:06,828 +0000] - Finished analyzing Files
+[DEBUG] [2019-03-26 13:35:06,828 +0000] - Available processors (cores): 	8
+Free memory (Mb): 	115
+Max memory (Mb): 	1785
+Total memory (Mb): 	121
+Used memory (Mb): 	5
+[INFO] [2019-03-26 13:35:06,837 +0000] - Initializing WhiteSource Client
+[INFO] [2019-03-26 13:35:06,840 +0000] - Service URL is https://saas.whitesourcesoftware.com/agent
+[INFO] [2019-03-26 13:35:06,955 +0000] - UpdateType set to OVERRIDE 
+[INFO] [2019-03-26 13:35:06,955 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Effective Usage Analysis -------------------
+------------------------------------------------------------------------
+[ERROR] [2019-03-26 13:35:06,957 +0000] - Effective Usage Analysis will not run if 0 dependencies are found. Check that the -d parameter specifies a valid project path
+
+
+Logs is finalized

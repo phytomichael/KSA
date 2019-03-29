@@ -1,0 +1,176 @@
+[INFO] [2019-03-26 13:35:04,650 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Fetch Configuration ------------------------
+------------------------------------------------------------------------
+[INFO] [2019-03-26 13:35:04,828 +0000] - FSA Configuration {
+projectPerFolder=false
+connectionTimeOut=60
+checkPolicies=false
+serviceUrl=https://saas.whitesourcesoftware.com/agent
+forceCheckAllDependencies=false
+forceUpdate=false
+forceUpdateFailBuildOnPolicyViolation=false
+updateTypeValue=OVERRIDE
+updateInventory=true
+generateScanReport=false
+scanReportTimeoutMinutes=10
+analyzeFrameworks=true
+analyzeFrameworkIds=[]
+offline=false
+zip=false
+prettyJson=true
+resolveAllDependencies=true
+ignoreSourceFiles=false
+npm: {npmRunPreStep=false, appPath=[C:/Users/phyto/Documents/Source/KSA/ksa/ksa/ksa-dao-context/target/ksa-dao-context-3.9.0.jar]
+npmIgnoreScripts=false, npmResolveDependencies=true, npmIncludeDevDependencies=true, npmTimeoutDependenciesCollector=60, npmIgnoreNpmLsErrors=true, npmYarnProject=false, npmYarnFrozenLockfile=false, npmIgnoreSourceFiles=true, npmIdentifyByNameAndVersion=false, npmProjectNameFromDependencyFile=false, }
+bower: {bowerResolveDependencies=false, bowerRunPreStep=false, bowerIgnoreSourceFiles=false, }
+nuget: {nugetResolveDependencies=false, nugetRestoreDependencies=false, nugetRunPreStep=false, nugetIgnoreSourceFiles=true, nugetResolvePackagesConfigFiles=true, nugetResolveCsProjFiles=true, nugetResolveNuspecFiles=true, nugetPreferredEnvironment=, nugetPackagesDirectory=, }
+maven: {mavenResolveDependencies=true, mavenIgnoredScopes=[All], mavenAggregateModules=true, mavenIgnorePomModules=true, mavenIgnoreSourceFiles=false, mavenRunPreStep=false, mavenIgnoreDependencyTreeErrors=false, mavenEnvironmentPath=, mavenM2Path=, }
+python: {pythonResolveDependencies=false, pipPath=pip, pythonPath=python, pythonIgnorePipInstallErrors=false, pythonInstallVirtualenv=false, pythonResolveHierarchyTree=true, pythonRequirementsFileIncludes=[requirements.txt, Pipfile], pythonResolveSetupPyFiles=false, pythonIgnoreSourceFiles=true, ignorePipEnvInstallErrors=false, pipenvInstallDevDependencies=false, runPipenvPreStep=false, pythonIsWssPluginInstalled=false, pythonUninstallWssPlugin=false, }
+gradle: {gradleResolveDependencies=true, gradleRunAssembleCommand=true, gradleAggregateModules=true, gradlePreferredEnvironment=gradle, gradleLocalRepositoryPath=, gradleIgnoreSourceFiles=false, gradleRunPreStep=false, gradleIgnoredScopes=[], }
+paket: {paketResolveDependencies=false, paketIgnoredScopes=, paketRunPreStep=false, paketPath=, paketIgnoreSourceFiles=true, }
+go: {goResolveDependencies=false, goDependencyManager=, goCollectDependenciesAtRuntime=false, goGlideIgnoreTestPackages=true, goGlideIgnoreSourceFiles=false, goGradleEnableTaskAlias=false, }
+ruby: {rubyResolveDependencies=false, rubyRunBundleInstall=false, rubyOverwriteGemFile=false, rubyInstallMissingGems=false, rubyIgnoreSourceFiles=true, }
+php: {phpResolveDependencies=false, phpRunPreStep=false, phpIncludeDevDependencies=false, }
+sbt: {sbtResolveDependencies=false, sbtAggregateModules=false, sbtRunPreStep=false, sbtTargetFolder=[], sbtIgnoreSourceFiles=false, }
+html: {htmlResolveDependencies=false, }
+cocoapods: {cocoapodsResolveDependencies=false, cocoapodsRunPreStep=false, cocoapodsIgnoreSourceFiles=true, }
+hex: {hexResolveDependencies=false, hexRunPreStep=false, hexAggregateModules=false, hexIgnoreSourceFiles=true, }
+imageNames=
+imageTags=
+imageDigests=
+forceDelete=false
+remoteDockerEnabled=false
+maxScanImages=0
+forcePull=false
+maxPullImages=10
+loginSudo=true
+amazonRegistryIds=[]
+remoteDockerAmazonEnabled=false
+amazonRegion=east
+amazonMaxPullImages=0
+remoteDockerAzureEnabled=false
+azureUserName=
+azureUserPassword=
+azureRegistryNames=[]
+remoteDockerArtifactoryEnabled=false
+artifactoryUrl=
+artifactoryUserName=
+artifactoryUserPassword=
+artifactoryRepositoryNames=[]
+remoteDockerGoogleContainerEnabled=false
+googleRepositoryNames=[]
+googleActiveAccount=
+serverlessConfiguration=
+fileListPath=
+dependencyDirs=[C:/Users/phyto/Documents/Source/KSA/ksa/ksa/ksa-dao-context]
+configFilePath=C:\Users\phyto\Documents\Source\KSA\whitesource-fs-agent.config
+includes=[**/*.jar, **/*.js]
+excludes=[**/*sources.jar, **/*javadoc.jar]
+dockerIncludes=[.*.*]
+dockerExcludes=[]
+dockerContainerIncludes=[.*.*]
+dockerContainerExcludes=[]
+pythonRequirementsFileIncludes=[requirements.txt]
+archiveExtractionDepth=0
+archiveIncludes=[]
+archiveExcludes=[]
+followSymlinks=true
+dockerScan=false
+globCaseSensitive=false
+projectPerFolderIncludes=[*]
+projectPerFolderExcludes=[]
+excludeDependenciesFromNodes=[]
+enableGenerateProjectDetailsJson=false
+apiToken=******
+userKey=
+projectVersion=
+projectToken=
+projectPerSubFolder=false
+requesterEmail=
+productToken=
+productName=Effective_Usage_Demo_9
+productVersion=
+projectName=ksa-dao-context
+scanComment=
+requireKnownSha1=false
+scanPackageManager=false
+scanDockerImages=false
+scanDockerContainers=false
+scanServerlessFunctions=false
+logLevel=debug
+}
+[INFO] [2019-03-26 13:35:04,830 +0000] - 
+------------------------------------------------------------------------
+-------------------- End: Fetch Configuration --------------------------
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 13:35:04,875 +0000] - Available processors (cores): 	8
+Free memory (Mb): 	108
+Max memory (Mb): 	1785
+Total memory (Mb): 	121
+Used memory (Mb): 	12
+[INFO] [2019-03-26 13:35:04,876 +0000] - Starting analysis
+[INFO] [2019-03-26 13:35:04,877 +0000] - Scanning directories [C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-dao-context] for package dependencies (may take a few minutes)
+[INFO] [2019-03-26 13:35:04,882 +0000] - Included file types: **/*.jar,**/*.js
+[INFO] [2019-03-26 13:35:04,882 +0000] - Excluded file types: **/*sources.jar,**/*javadoc.jar
+[INFO] [2019-03-26 13:35:04,884 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching 'Includes' Pattern -----
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 13:35:04,890 +0000] - Scanning C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-dao-context
+[INFO] [2019-03-26 13:35:04,928 +0000] - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching 'Includes' Pattern -------
+------------------------------------------------------------------------
+[INFO] [2019-03-26 13:35:04,930 +0000] - Attempting to resolve dependencies
+[INFO] [2019-03-26 13:35:04,931 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step & Resolve Dependencies ------------
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 13:35:04,976 +0000] - found folders:
+[DEBUG] [2019-03-26 13:35:04,977 +0000] - C:\Users\phyto\Documents\Source\KSA\ksa\ksa
+[DEBUG] [2019-03-26 13:35:04,978 +0000] - 
+[DEBUG] [2019-03-26 13:35:04,991 +0000] - 
+[DEBUG] [2019-03-26 13:35:04,994 +0000] - Finishing reduce dependencies
+[INFO] [2019-03-26 13:35:04,996 +0000] - Trying to resolve MAVEN dependencies
+[INFO] [2019-03-26 13:35:04,997 +0000] - topFolder = C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-dao-context
+[DEBUG] [2019-03-26 13:35:04,998 +0000] - topFolder = C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-dao-context
+[DEBUG] [2019-03-26 13:35:05,308 +0000] - start execute command 'cmd /c mvn -v' in 'C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-dao-context'
+[DEBUG] [2019-03-26 13:35:05,324 +0000] - trying to read lines using 'cmd /c mvn -v'
+[DEBUG] [2019-03-26 13:35:06,423 +0000] - Read line #1: Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T19:41:47+01:00)
+[DEBUG] [2019-03-26 13:35:06,427 +0000] - Read line #2: Maven home: C:\Users\phyto\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\..
+[DEBUG] [2019-03-26 13:35:06,436 +0000] - Read line #3: Java version: 1.8.0_181, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jre1.8.0_181
+[DEBUG] [2019-03-26 13:35:06,436 +0000] - Read line #4: Default locale: en_GB, platform encoding: Cp1252
+[DEBUG] [2019-03-26 13:35:06,436 +0000] - Read line #5: OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] [2019-03-26 13:35:06,486 +0000] - Finished reading 5 lines
+[DEBUG] [2019-03-26 13:35:06,487 +0000] - error in execute command 1
+[DEBUG] [2019-03-26 13:35:06,488 +0000] - Failed to get maven version
+[WARN] [2019-03-26 13:35:06,488 +0000] - Please install maven
+[INFO] [2019-03-26 13:35:06,511 +0000] - 
+------------------------------------------------------------------------
+-------------------- End: Pre-Step & Resolve Dependencies --------------
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 13:35:06,513 +0000] - total resolved projects = 1
+[INFO] [2019-03-26 13:35:06,514 +0000] - Total dependencies found for all resolvers: 0 (0 unique)
+[INFO] [2019-03-26 13:35:06,515 +0000] - Scanning directories [C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-dao-context] for matching source/binary file types (may take a few minutes)
+[DEBUG] [2019-03-26 13:35:06,515 +0000] - Scanning C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-dao-context
+[INFO] [2019-03-26 13:35:06,546 +0000] - Total files found according to the includes/excludes pattern: 1
+[INFO] | [                                 ] 0% - 0 of 1 files
+[INFO] | [#################################] 100% - 1 of 1 files
+[INFO] [2019-03-26 13:35:06,609 +0000] - Finished analyzing Files
+[DEBUG] [2019-03-26 13:35:06,609 +0000] - Available processors (cores): 	8
+Free memory (Mb): 	103
+Max memory (Mb): 	1785
+Total memory (Mb): 	121
+Used memory (Mb): 	17
+[INFO] [2019-03-26 13:35:06,619 +0000] - Initializing WhiteSource Client
+[INFO] [2019-03-26 13:35:06,623 +0000] - Service URL is https://saas.whitesourcesoftware.com/agent
+[INFO] [2019-03-26 13:35:06,832 +0000] - UpdateType set to OVERRIDE 
+[INFO] [2019-03-26 13:35:06,832 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Effective Usage Analysis -------------------
+------------------------------------------------------------------------
+[ERROR] [2019-03-26 13:35:06,833 +0000] - Effective Usage Analysis will not run if 0 dependencies are found. Check that the -d parameter specifies a valid project path
+
+
+Logs is finalized

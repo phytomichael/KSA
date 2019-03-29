@@ -1,0 +1,182 @@
+[INFO] [2019-03-26 13:42:38,891 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Fetch Configuration ------------------------
+------------------------------------------------------------------------
+[INFO] [2019-03-26 13:42:39,173 +0000] - FSA Configuration {
+projectPerFolder=false
+connectionTimeOut=60
+checkPolicies=false
+serviceUrl=https://app-eu.whitesourcesoftware.com/agent
+forceCheckAllDependencies=false
+forceUpdate=false
+forceUpdateFailBuildOnPolicyViolation=false
+updateTypeValue=OVERRIDE
+updateInventory=true
+generateScanReport=false
+scanReportTimeoutMinutes=10
+analyzeFrameworks=true
+analyzeFrameworkIds=[]
+offline=false
+zip=false
+prettyJson=true
+resolveAllDependencies=true
+ignoreSourceFiles=false
+npm: {npmRunPreStep=false, appPath=[C:/Users/phyto/Documents/Source/KSA/ksa/ksa/ksa-web-root/ksa-statistics-web/target/ksa-statistics-web-3.9.0.jar]
+npmIgnoreScripts=false, npmResolveDependencies=true, npmIncludeDevDependencies=true, npmTimeoutDependenciesCollector=60, npmIgnoreNpmLsErrors=true, npmYarnProject=false, npmYarnFrozenLockfile=false, npmIgnoreSourceFiles=true, npmIdentifyByNameAndVersion=false, npmProjectNameFromDependencyFile=false, }
+bower: {bowerResolveDependencies=false, bowerRunPreStep=false, bowerIgnoreSourceFiles=false, }
+nuget: {nugetResolveDependencies=false, nugetRestoreDependencies=false, nugetRunPreStep=false, nugetIgnoreSourceFiles=true, nugetResolvePackagesConfigFiles=true, nugetResolveCsProjFiles=true, nugetResolveNuspecFiles=true, nugetPreferredEnvironment=, nugetPackagesDirectory=, }
+maven: {mavenResolveDependencies=true, mavenIgnoredScopes=[All], mavenAggregateModules=true, mavenIgnorePomModules=true, mavenIgnoreSourceFiles=false, mavenRunPreStep=false, mavenIgnoreDependencyTreeErrors=false, mavenEnvironmentPath=, mavenM2Path=, }
+python: {pythonResolveDependencies=false, pipPath=pip, pythonPath=python, pythonIgnorePipInstallErrors=false, pythonInstallVirtualenv=false, pythonResolveHierarchyTree=true, pythonRequirementsFileIncludes=[requirements.txt, Pipfile], pythonResolveSetupPyFiles=false, pythonIgnoreSourceFiles=true, ignorePipEnvInstallErrors=false, pipenvInstallDevDependencies=false, runPipenvPreStep=false, pythonIsWssPluginInstalled=false, pythonUninstallWssPlugin=false, }
+gradle: {gradleResolveDependencies=true, gradleRunAssembleCommand=true, gradleAggregateModules=true, gradlePreferredEnvironment=gradle, gradleLocalRepositoryPath=, gradleIgnoreSourceFiles=false, gradleRunPreStep=false, gradleIgnoredScopes=[], }
+paket: {paketResolveDependencies=false, paketIgnoredScopes=, paketRunPreStep=false, paketPath=, paketIgnoreSourceFiles=true, }
+go: {goResolveDependencies=false, goDependencyManager=, goCollectDependenciesAtRuntime=false, goGlideIgnoreTestPackages=true, goGlideIgnoreSourceFiles=false, goGradleEnableTaskAlias=false, }
+ruby: {rubyResolveDependencies=false, rubyRunBundleInstall=false, rubyOverwriteGemFile=false, rubyInstallMissingGems=false, rubyIgnoreSourceFiles=true, }
+php: {phpResolveDependencies=false, phpRunPreStep=false, phpIncludeDevDependencies=false, }
+sbt: {sbtResolveDependencies=false, sbtAggregateModules=false, sbtRunPreStep=false, sbtTargetFolder=[], sbtIgnoreSourceFiles=false, }
+html: {htmlResolveDependencies=false, }
+cocoapods: {cocoapodsResolveDependencies=false, cocoapodsRunPreStep=false, cocoapodsIgnoreSourceFiles=true, }
+hex: {hexResolveDependencies=false, hexRunPreStep=false, hexAggregateModules=false, hexIgnoreSourceFiles=true, }
+imageNames=
+imageTags=
+imageDigests=
+forceDelete=false
+remoteDockerEnabled=false
+maxScanImages=0
+forcePull=false
+maxPullImages=10
+loginSudo=true
+amazonRegistryIds=[]
+remoteDockerAmazonEnabled=false
+amazonRegion=east
+amazonMaxPullImages=0
+remoteDockerAzureEnabled=false
+azureUserName=
+azureUserPassword=
+azureRegistryNames=[]
+remoteDockerArtifactoryEnabled=false
+artifactoryUrl=
+artifactoryUserName=
+artifactoryUserPassword=
+artifactoryRepositoryNames=[]
+remoteDockerGoogleContainerEnabled=false
+googleRepositoryNames=[]
+googleActiveAccount=
+serverlessConfiguration=
+fileListPath=
+dependencyDirs=[C:/Users/phyto/Documents/Source/KSA/ksa/ksa/ksa-web-root/ksa-statistics-web]
+configFilePath=C:\Users\phyto\Documents\Source\KSA\whitesource-fs-agent.config
+includes=[**/*.jar, **/*.js]
+excludes=[**/*sources.jar, **/*javadoc.jar]
+dockerIncludes=[.*.*]
+dockerExcludes=[]
+dockerContainerIncludes=[.*.*]
+dockerContainerExcludes=[]
+pythonRequirementsFileIncludes=[requirements.txt]
+archiveExtractionDepth=0
+archiveIncludes=[]
+archiveExcludes=[]
+followSymlinks=true
+dockerScan=false
+globCaseSensitive=false
+projectPerFolderIncludes=[*]
+projectPerFolderExcludes=[]
+excludeDependenciesFromNodes=[]
+enableGenerateProjectDetailsJson=false
+apiToken=******
+userKey=
+projectVersion=
+projectToken=
+projectPerSubFolder=false
+requesterEmail=
+productToken=
+productName=Effective_Usage_Demo_9
+productVersion=
+projectName=ksa-statistics-web
+scanComment=
+requireKnownSha1=false
+scanPackageManager=false
+scanDockerImages=false
+scanDockerContainers=false
+scanServerlessFunctions=false
+logLevel=debug
+}
+[INFO] [2019-03-26 13:42:39,175 +0000] - 
+------------------------------------------------------------------------
+-------------------- End: Fetch Configuration --------------------------
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 13:42:39,269 +0000] - Available processors (cores): 	8
+Free memory (Mb): 	107
+Max memory (Mb): 	1785
+Total memory (Mb): 	121
+Used memory (Mb): 	13
+[INFO] [2019-03-26 13:42:39,273 +0000] - Starting analysis
+[INFO] [2019-03-26 13:42:39,274 +0000] - Scanning directories [C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-statistics-web] for package dependencies (may take a few minutes)
+[INFO] [2019-03-26 13:42:39,279 +0000] - Included file types: **/*.jar,**/*.js
+[INFO] [2019-03-26 13:42:39,279 +0000] - Excluded file types: **/*sources.jar,**/*javadoc.jar
+[INFO] [2019-03-26 13:42:39,282 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching 'Includes' Pattern -----
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 13:42:39,285 +0000] - Scanning C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-statistics-web
+[INFO] [2019-03-26 13:42:39,355 +0000] - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching 'Includes' Pattern -------
+------------------------------------------------------------------------
+[INFO] [2019-03-26 13:42:39,362 +0000] - Attempting to resolve dependencies
+[INFO] [2019-03-26 13:42:39,363 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step & Resolve Dependencies ------------
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 13:42:39,448 +0000] - found folders:
+[DEBUG] [2019-03-26 13:42:39,449 +0000] - C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root
+[DEBUG] [2019-03-26 13:42:39,450 +0000] - 
+[DEBUG] [2019-03-26 13:42:39,470 +0000] - 
+[DEBUG] [2019-03-26 13:42:39,473 +0000] - Finishing reduce dependencies
+[INFO] [2019-03-26 13:42:39,478 +0000] - Trying to resolve MAVEN dependencies
+[INFO] [2019-03-26 13:42:39,481 +0000] - topFolder = C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-statistics-web
+[DEBUG] [2019-03-26 13:42:39,481 +0000] - topFolder = C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-statistics-web
+[DEBUG] [2019-03-26 13:42:39,778 +0000] - start execute command 'cmd /c mvn -v' in 'C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-statistics-web'
+[DEBUG] [2019-03-26 13:42:39,794 +0000] - trying to read lines using 'cmd /c mvn -v'
+[DEBUG] [2019-03-26 13:42:42,478 +0000] - Read line #1: Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T19:41:47+01:00)
+[DEBUG] [2019-03-26 13:42:42,479 +0000] - Read line #2: Maven home: C:\Users\phyto\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\..
+[DEBUG] [2019-03-26 13:42:42,479 +0000] - Read line #3: Java version: 1.8.0_181, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_181\jre
+[DEBUG] [2019-03-26 13:42:42,479 +0000] - Read line #4: Default locale: en_GB, platform encoding: Cp1252
+[DEBUG] [2019-03-26 13:42:42,479 +0000] - Read line #5: OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] [2019-03-26 13:42:42,564 +0000] - Finished reading 5 lines
+[DEBUG] [2019-03-26 13:42:42,565 +0000] - error in execute command 1
+[DEBUG] [2019-03-26 13:42:42,566 +0000] - Failed to get maven version
+[WARN] [2019-03-26 13:42:42,566 +0000] - Please install maven
+[INFO] [2019-03-26 13:42:42,593 +0000] - 
+------------------------------------------------------------------------
+-------------------- End: Pre-Step & Resolve Dependencies --------------
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 13:42:42,596 +0000] - total resolved projects = 1
+[INFO] [2019-03-26 13:42:42,598 +0000] - Total dependencies found for all resolvers: 0 (0 unique)
+[INFO] [2019-03-26 13:42:42,602 +0000] - Scanning directories [C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-statistics-web] for matching source/binary file types (may take a few minutes)
+[DEBUG] [2019-03-26 13:42:42,602 +0000] - Scanning C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-statistics-web
+[INFO] [2019-03-26 13:42:42,643 +0000] - Total files found according to the includes/excludes pattern: 7
+[INFO] | [                                 ] 0% - 0 of 7 files
+[INFO] | [####                             ] 14% - 1 of 7 files
+[INFO] | [#########                        ] 28% - 2 of 7 files
+[INFO] | [##############                   ] 42% - 3 of 7 files
+[INFO] / [###################              ] 57% - 4 of 7 files
+[INFO] / [#######################          ] 71% - 5 of 7 files
+[INFO] / [############################     ] 85% - 6 of 7 files
+[INFO] / [#################################] 100% - 7 of 7 files
+[INFO] [2019-03-26 13:42:43,215 +0000] - Finished analyzing Files
+[DEBUG] [2019-03-26 13:42:43,215 +0000] - Available processors (cores): 	8
+Free memory (Mb): 	93
+Max memory (Mb): 	1785
+Total memory (Mb): 	121
+Used memory (Mb): 	27
+[INFO] [2019-03-26 13:42:43,228 +0000] - Initializing WhiteSource Client
+[INFO] [2019-03-26 13:42:43,232 +0000] - Service URL is https://app-eu.whitesourcesoftware.com/agent
+[INFO] [2019-03-26 13:42:43,605 +0000] - UpdateType set to OVERRIDE 
+[INFO] [2019-03-26 13:42:43,605 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Effective Usage Analysis -------------------
+------------------------------------------------------------------------
+[ERROR] [2019-03-26 13:42:43,606 +0000] - Effective Usage Analysis will not run if 0 dependencies are found. Check that the -d parameter specifies a valid project path
+
+
+Logs is finalized

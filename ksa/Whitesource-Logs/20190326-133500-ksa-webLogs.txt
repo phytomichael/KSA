@@ -1,0 +1,147 @@
+[INFO] [2019-03-26 13:35:01,599 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Fetch Configuration ------------------------
+------------------------------------------------------------------------
+[INFO] [2019-03-26 13:35:01,785 +0000] - FSA Configuration {
+projectPerFolder=false
+connectionTimeOut=60
+checkPolicies=false
+serviceUrl=https://saas.whitesourcesoftware.com/agent
+forceCheckAllDependencies=false
+forceUpdate=false
+forceUpdateFailBuildOnPolicyViolation=false
+updateTypeValue=OVERRIDE
+updateInventory=true
+generateScanReport=false
+scanReportTimeoutMinutes=10
+analyzeFrameworks=true
+analyzeFrameworkIds=[]
+offline=false
+zip=false
+prettyJson=true
+resolveAllDependencies=true
+ignoreSourceFiles=false
+npm: {npmRunPreStep=false, appPath=[C:/Users/phyto/Documents/Source/KSA/ksa/ksa/ksa-web-root/ksa-web/target/ROOT.war]
+npmIgnoreScripts=false, npmResolveDependencies=true, npmIncludeDevDependencies=true, npmTimeoutDependenciesCollector=60, npmIgnoreNpmLsErrors=true, npmYarnProject=false, npmYarnFrozenLockfile=false, npmIgnoreSourceFiles=true, npmIdentifyByNameAndVersion=false, npmProjectNameFromDependencyFile=false, }
+bower: {bowerResolveDependencies=false, bowerRunPreStep=false, bowerIgnoreSourceFiles=false, }
+nuget: {nugetResolveDependencies=false, nugetRestoreDependencies=false, nugetRunPreStep=false, nugetIgnoreSourceFiles=true, nugetResolvePackagesConfigFiles=true, nugetResolveCsProjFiles=true, nugetResolveNuspecFiles=true, nugetPreferredEnvironment=, nugetPackagesDirectory=, }
+maven: {mavenResolveDependencies=true, mavenIgnoredScopes=[All], mavenAggregateModules=true, mavenIgnorePomModules=true, mavenIgnoreSourceFiles=false, mavenRunPreStep=false, mavenIgnoreDependencyTreeErrors=false, mavenEnvironmentPath=, mavenM2Path=, }
+python: {pythonResolveDependencies=false, pipPath=pip, pythonPath=python, pythonIgnorePipInstallErrors=false, pythonInstallVirtualenv=false, pythonResolveHierarchyTree=true, pythonRequirementsFileIncludes=[requirements.txt, Pipfile], pythonResolveSetupPyFiles=false, pythonIgnoreSourceFiles=true, ignorePipEnvInstallErrors=false, pipenvInstallDevDependencies=false, runPipenvPreStep=false, pythonIsWssPluginInstalled=false, pythonUninstallWssPlugin=false, }
+gradle: {gradleResolveDependencies=true, gradleRunAssembleCommand=true, gradleAggregateModules=true, gradlePreferredEnvironment=gradle, gradleLocalRepositoryPath=, gradleIgnoreSourceFiles=false, gradleRunPreStep=false, gradleIgnoredScopes=[], }
+paket: {paketResolveDependencies=false, paketIgnoredScopes=, paketRunPreStep=false, paketPath=, paketIgnoreSourceFiles=true, }
+go: {goResolveDependencies=false, goDependencyManager=, goCollectDependenciesAtRuntime=false, goGlideIgnoreTestPackages=true, goGlideIgnoreSourceFiles=false, goGradleEnableTaskAlias=false, }
+ruby: {rubyResolveDependencies=false, rubyRunBundleInstall=false, rubyOverwriteGemFile=false, rubyInstallMissingGems=false, rubyIgnoreSourceFiles=true, }
+php: {phpResolveDependencies=false, phpRunPreStep=false, phpIncludeDevDependencies=false, }
+sbt: {sbtResolveDependencies=false, sbtAggregateModules=false, sbtRunPreStep=false, sbtTargetFolder=[], sbtIgnoreSourceFiles=false, }
+html: {htmlResolveDependencies=false, }
+cocoapods: {cocoapodsResolveDependencies=false, cocoapodsRunPreStep=false, cocoapodsIgnoreSourceFiles=true, }
+hex: {hexResolveDependencies=false, hexRunPreStep=false, hexAggregateModules=false, hexIgnoreSourceFiles=true, }
+imageNames=
+imageTags=
+imageDigests=
+forceDelete=false
+remoteDockerEnabled=false
+maxScanImages=0
+forcePull=false
+maxPullImages=10
+loginSudo=true
+amazonRegistryIds=[]
+remoteDockerAmazonEnabled=false
+amazonRegion=east
+amazonMaxPullImages=0
+remoteDockerAzureEnabled=false
+azureUserName=
+azureUserPassword=
+azureRegistryNames=[]
+remoteDockerArtifactoryEnabled=false
+artifactoryUrl=
+artifactoryUserName=
+artifactoryUserPassword=
+artifactoryRepositoryNames=[]
+remoteDockerGoogleContainerEnabled=false
+googleRepositoryNames=[]
+googleActiveAccount=
+serverlessConfiguration=
+fileListPath=
+dependencyDirs=[C:/Users/phyto/Documents/Source/KSA/ksa/ksa/ksa-web-root/ksa-web]
+configFilePath=C:\Users\phyto\Documents\Source\KSA\whitesource-fs-agent.config
+includes=[**/*.jar, **/*.js]
+excludes=[**/*sources.jar, **/*javadoc.jar]
+dockerIncludes=[.*.*]
+dockerExcludes=[]
+dockerContainerIncludes=[.*.*]
+dockerContainerExcludes=[]
+pythonRequirementsFileIncludes=[requirements.txt]
+archiveExtractionDepth=0
+archiveIncludes=[]
+archiveExcludes=[]
+followSymlinks=true
+dockerScan=false
+globCaseSensitive=false
+projectPerFolderIncludes=[*]
+projectPerFolderExcludes=[]
+excludeDependenciesFromNodes=[]
+enableGenerateProjectDetailsJson=false
+apiToken=******
+userKey=
+projectVersion=
+projectToken=
+projectPerSubFolder=false
+requesterEmail=
+productToken=
+productName=Effective_Usage_Demo_9
+productVersion=
+projectName=ksa-web
+scanComment=
+requireKnownSha1=false
+scanPackageManager=false
+scanDockerImages=false
+scanDockerContainers=false
+scanServerlessFunctions=false
+logLevel=debug
+}
+[INFO] [2019-03-26 13:35:01,786 +0000] - 
+------------------------------------------------------------------------
+-------------------- End: Fetch Configuration --------------------------
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 13:35:01,877 +0000] - Available processors (cores): 	8
+Free memory (Mb): 	108
+Max memory (Mb): 	1785
+Total memory (Mb): 	121
+Used memory (Mb): 	12
+[INFO] [2019-03-26 13:35:01,879 +0000] - Starting analysis
+[INFO] [2019-03-26 13:35:01,879 +0000] - Scanning directories [C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-web] for package dependencies (may take a few minutes)
+[INFO] [2019-03-26 13:35:01,881 +0000] - Included file types: **/*.jar,**/*.js
+[INFO] [2019-03-26 13:35:01,881 +0000] - Excluded file types: **/*sources.jar,**/*javadoc.jar
+[INFO] [2019-03-26 13:35:01,881 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching 'Includes' Pattern -----
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 13:35:01,882 +0000] - Scanning C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-web
+[INFO] [2019-03-26 13:35:02,007 +0000] - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching 'Includes' Pattern -------
+------------------------------------------------------------------------
+[INFO] [2019-03-26 13:35:02,012 +0000] - Attempting to resolve dependencies
+[INFO] [2019-03-26 13:35:02,012 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step & Resolve Dependencies ------------
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 13:35:02,105 +0000] - found folders:
+[DEBUG] [2019-03-26 13:35:02,109 +0000] - C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root
+[DEBUG] [2019-03-26 13:35:02,111 +0000] - 
+[DEBUG] [2019-03-26 13:35:02,122 +0000] - 
+[DEBUG] [2019-03-26 13:35:02,123 +0000] - found folders:
+[DEBUG] [2019-03-26 13:35:02,123 +0000] - C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-web\target\ROOT\rs
+[DEBUG] [2019-03-26 13:35:02,123 +0000] - C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-web\src\main\webapp\rs
+[DEBUG] [2019-03-26 13:35:02,123 +0000] - 
+[DEBUG] [2019-03-26 13:35:02,126 +0000] - C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-web\src\main\webapp\rs;C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-web\target\ROOT\rs\bootstrap;false
+[DEBUG] [2019-03-26 13:35:02,126 +0000] - 
+[DEBUG] [2019-03-26 13:35:02,128 +0000] - Finishing reduce dependencies
+[INFO] [2019-03-26 13:35:02,131 +0000] - Trying to resolve NPM dependencies
+[INFO] [2019-03-26 13:35:02,133 +0000] - topFolder = C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-web\target\ROOT\rs\bootstrap
+[DEBUG] [2019-03-26 13:35:02,133 +0000] - topFolder = C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-web\target\ROOT\rs\bootstrap
+[ERROR] [2019-03-26 13:35:02,133 +0000] - the parameter npm.resolveMainPackageJsonOnly = true but there is no package.json in main project folder that was scanned.
+
+
+Logs is finalized

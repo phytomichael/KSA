@@ -1,0 +1,295 @@
+[INFO] [2019-03-26 14:09:44,663 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Fetch Configuration ------------------------
+------------------------------------------------------------------------
+[INFO] [2019-03-26 14:09:44,827 +0000] - FSA Configuration {
+projectPerFolder=false
+connectionTimeOut=60
+checkPolicies=false
+serviceUrl=https://app-eu.whitesourcesoftware.com/agent
+forceCheckAllDependencies=false
+forceUpdate=false
+forceUpdateFailBuildOnPolicyViolation=false
+updateTypeValue=OVERRIDE
+updateInventory=true
+generateScanReport=false
+scanReportTimeoutMinutes=10
+analyzeFrameworks=true
+analyzeFrameworkIds=[]
+offline=false
+zip=false
+prettyJson=true
+resolveAllDependencies=true
+ignoreSourceFiles=false
+npm: {npmRunPreStep=false, appPath=[C:/Users/phyto/Documents/Source/KSA/ksa/ksa/ksa-web-root/ksa-finance-web/target/ksa-finance-web-3.9.0.jar]
+npmIgnoreScripts=false, npmResolveDependencies=true, npmIncludeDevDependencies=true, npmTimeoutDependenciesCollector=60, npmIgnoreNpmLsErrors=true, npmYarnProject=false, npmYarnFrozenLockfile=false, npmIgnoreSourceFiles=true, npmIdentifyByNameAndVersion=false, npmProjectNameFromDependencyFile=false, }
+bower: {bowerResolveDependencies=false, bowerRunPreStep=false, bowerIgnoreSourceFiles=false, }
+nuget: {nugetResolveDependencies=false, nugetRestoreDependencies=false, nugetRunPreStep=false, nugetIgnoreSourceFiles=true, nugetResolvePackagesConfigFiles=true, nugetResolveCsProjFiles=true, nugetResolveNuspecFiles=true, nugetPreferredEnvironment=, nugetPackagesDirectory=, }
+maven: {mavenResolveDependencies=true, mavenIgnoredScopes=[All], mavenAggregateModules=true, mavenIgnorePomModules=true, mavenIgnoreSourceFiles=false, mavenRunPreStep=false, mavenIgnoreDependencyTreeErrors=false, mavenEnvironmentPath=, mavenM2Path=, }
+python: {pythonResolveDependencies=false, pipPath=pip, pythonPath=python, pythonIgnorePipInstallErrors=false, pythonInstallVirtualenv=false, pythonResolveHierarchyTree=true, pythonRequirementsFileIncludes=[requirements.txt, Pipfile], pythonResolveSetupPyFiles=false, pythonIgnoreSourceFiles=true, ignorePipEnvInstallErrors=false, pipenvInstallDevDependencies=false, runPipenvPreStep=false, pythonIsWssPluginInstalled=false, pythonUninstallWssPlugin=false, }
+gradle: {gradleResolveDependencies=true, gradleRunAssembleCommand=true, gradleAggregateModules=true, gradlePreferredEnvironment=gradle, gradleLocalRepositoryPath=, gradleIgnoreSourceFiles=false, gradleRunPreStep=false, gradleIgnoredScopes=[], }
+paket: {paketResolveDependencies=false, paketIgnoredScopes=, paketRunPreStep=false, paketPath=, paketIgnoreSourceFiles=true, }
+go: {goResolveDependencies=false, goDependencyManager=, goCollectDependenciesAtRuntime=false, goGlideIgnoreTestPackages=true, goGlideIgnoreSourceFiles=false, goGradleEnableTaskAlias=false, }
+ruby: {rubyResolveDependencies=false, rubyRunBundleInstall=false, rubyOverwriteGemFile=false, rubyInstallMissingGems=false, rubyIgnoreSourceFiles=true, }
+php: {phpResolveDependencies=false, phpRunPreStep=false, phpIncludeDevDependencies=false, }
+sbt: {sbtResolveDependencies=false, sbtAggregateModules=false, sbtRunPreStep=false, sbtTargetFolder=[], sbtIgnoreSourceFiles=false, }
+html: {htmlResolveDependencies=false, }
+cocoapods: {cocoapodsResolveDependencies=false, cocoapodsRunPreStep=false, cocoapodsIgnoreSourceFiles=true, }
+hex: {hexResolveDependencies=false, hexRunPreStep=false, hexAggregateModules=false, hexIgnoreSourceFiles=true, }
+imageNames=
+imageTags=
+imageDigests=
+forceDelete=false
+remoteDockerEnabled=false
+maxScanImages=0
+forcePull=false
+maxPullImages=10
+loginSudo=true
+amazonRegistryIds=[]
+remoteDockerAmazonEnabled=false
+amazonRegion=east
+amazonMaxPullImages=0
+remoteDockerAzureEnabled=false
+azureUserName=
+azureUserPassword=
+azureRegistryNames=[]
+remoteDockerArtifactoryEnabled=false
+artifactoryUrl=
+artifactoryUserName=
+artifactoryUserPassword=
+artifactoryRepositoryNames=[]
+remoteDockerGoogleContainerEnabled=false
+googleRepositoryNames=[]
+googleActiveAccount=
+serverlessConfiguration=
+fileListPath=
+dependencyDirs=[C:/Users/phyto/Documents/Source/KSA/ksa/ksa/ksa-web-root/ksa-finance-web]
+configFilePath=C:\Users\phyto\Documents\Source\KSA\whitesource-fs-agent.config
+includes=[**/*.jar, **/*.js]
+excludes=[**/*sources.jar, **/*javadoc.jar]
+dockerIncludes=[.*.*]
+dockerExcludes=[]
+dockerContainerIncludes=[.*.*]
+dockerContainerExcludes=[]
+pythonRequirementsFileIncludes=[requirements.txt]
+archiveExtractionDepth=0
+archiveIncludes=[]
+archiveExcludes=[]
+followSymlinks=true
+dockerScan=false
+globCaseSensitive=false
+projectPerFolderIncludes=[*]
+projectPerFolderExcludes=[]
+excludeDependenciesFromNodes=[]
+enableGenerateProjectDetailsJson=false
+apiToken=******
+userKey=
+projectVersion=
+projectToken=
+projectPerSubFolder=false
+requesterEmail=
+productToken=
+productName=Effective_Usage_Demo_9
+productVersion=
+projectName=ksa-finance-web
+scanComment=
+requireKnownSha1=false
+scanPackageManager=false
+scanDockerImages=false
+scanDockerContainers=false
+scanServerlessFunctions=false
+logLevel=debug
+}
+[INFO] [2019-03-26 14:09:44,831 +0000] - 
+------------------------------------------------------------------------
+-------------------- End: Fetch Configuration --------------------------
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 14:09:44,918 +0000] - Available processors (cores): 	8
+Free memory (Mb): 	108
+Max memory (Mb): 	1785
+Total memory (Mb): 	121
+Used memory (Mb): 	12
+[INFO] [2019-03-26 14:09:44,919 +0000] - Starting analysis
+[INFO] [2019-03-26 14:09:44,920 +0000] - Scanning directories [C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-finance-web] for package dependencies (may take a few minutes)
+[INFO] [2019-03-26 14:09:44,923 +0000] - Included file types: **/*.jar,**/*.js
+[INFO] [2019-03-26 14:09:44,923 +0000] - Excluded file types: **/*sources.jar,**/*javadoc.jar
+[INFO] [2019-03-26 14:09:44,924 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching 'Includes' Pattern -----
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 14:09:44,925 +0000] - Scanning C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-finance-web
+[INFO] [2019-03-26 14:09:45,087 +0000] - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching 'Includes' Pattern -------
+------------------------------------------------------------------------
+[INFO] [2019-03-26 14:09:45,090 +0000] - Attempting to resolve dependencies
+[INFO] [2019-03-26 14:09:45,090 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step & Resolve Dependencies ------------
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 14:09:45,205 +0000] - found folders:
+[DEBUG] [2019-03-26 14:09:45,207 +0000] - C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root
+[DEBUG] [2019-03-26 14:09:45,207 +0000] - 
+[DEBUG] [2019-03-26 14:09:45,226 +0000] - 
+[DEBUG] [2019-03-26 14:09:45,229 +0000] - Finishing reduce dependencies
+[INFO] [2019-03-26 14:09:45,235 +0000] - Trying to resolve MAVEN dependencies
+[INFO] [2019-03-26 14:09:45,237 +0000] - topFolder = C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-finance-web
+[DEBUG] [2019-03-26 14:09:45,237 +0000] - topFolder = C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-finance-web
+[DEBUG] [2019-03-26 14:09:45,557 +0000] - start execute command 'cmd /c mvn -v' in 'C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-finance-web'
+[DEBUG] [2019-03-26 14:09:45,575 +0000] - trying to read lines using 'cmd /c mvn -v'
+[DEBUG] [2019-03-26 14:09:47,414 +0000] - Read line #1: Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T19:41:47+01:00)
+[DEBUG] [2019-03-26 14:09:47,417 +0000] - Read line #2: Maven home: C:\Users\phyto\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\..
+[DEBUG] [2019-03-26 14:09:47,421 +0000] - Read line #3: Java version: 1.8.0_181, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_181\jre
+[DEBUG] [2019-03-26 14:09:47,421 +0000] - Read line #4: Default locale: en_GB, platform encoding: Cp1252
+[DEBUG] [2019-03-26 14:09:47,427 +0000] - Read line #5: OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] [2019-03-26 14:09:47,610 +0000] - Finished reading 5 lines
+[DEBUG] [2019-03-26 14:09:47,611 +0000] - Maven : [Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T19:41:47+01:00), Maven home: C:\Users\phyto\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\.., Java version: 1.8.0_181, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_181\jre, Default locale: en_GB, platform encoding: Cp1252, OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"]
+[DEBUG] [2019-03-26 14:09:47,612 +0000] - start execute command 'cmd /c mvn -T1 dependency:tree -B' in 'C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-root\ksa-finance-web'
+[DEBUG] [2019-03-26 14:09:47,634 +0000] - trying to read lines using 'cmd /c mvn -T1 dependency:tree -B'
+[DEBUG] [2019-03-26 14:09:55,864 +0000] - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2019-03-26 14:09:59,073 +0000] - Read line #2: [INFO] 
+[DEBUG] [2019-03-26 14:09:59,077 +0000] - Read line #3: [INFO] ----------------------< com.ksa:ksa-finance-web >-----------------------
+[DEBUG] [2019-03-26 14:09:59,084 +0000] - Read line #4: [INFO] Building ksa-finance-web 3.9.0
+[DEBUG] [2019-03-26 14:09:59,090 +0000] - Read line #5: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2019-03-26 14:10:02,151 +0000] - Read line #6: [INFO] 
+[DEBUG] [2019-03-26 14:10:02,160 +0000] - Read line #7: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ ksa-finance-web ---
+[DEBUG] [2019-03-26 14:10:06,223 +0000] - Read line #8: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom
+[DEBUG] [2019-03-26 14:10:07,215 +0000] - Read line #9: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom (3.9 kB at 3.5 kB/s)
+[DEBUG] [2019-03-26 14:10:11,346 +0000] - Read line #10: [INFO] com.ksa:ksa-finance-web:jar:3.9.0
+[DEBUG] [2019-03-26 14:10:11,351 +0000] - Read line #11: [INFO] +- com.ksa:ksa-finance-service:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,352 +0000] - Read line #12: [INFO] |  \- com.ksa:ksa-finance-dao:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,352 +0000] - Read line #13: [INFO] |     \- com.ksa:ksa-bd-dao:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,356 +0000] - Read line #14: [INFO] +- com.ksa:ksa-logistics-web:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,357 +0000] - Read line #15: [INFO] |  +- com.ksa:ksa-logistics-service:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,357 +0000] - Read line #16: [INFO] |  |  \- com.ksa:ksa-logistics-dao:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,358 +0000] - Read line #17: [INFO] |  +- com.ksa:ksa-security-web:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,358 +0000] - Read line #18: [INFO] |  |  \- com.ksa:ksa-security-service:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,358 +0000] - Read line #19: [INFO] |  |     +- com.ksa:ksa-security-dao:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,359 +0000] - Read line #20: [INFO] |  |     \- org.apache.shiro:shiro-ehcache:jar:1.2.0:compile
+[DEBUG] [2019-03-26 14:10:11,360 +0000] - Read line #21: [INFO] |  |        \- net.sf.ehcache:ehcache-core:jar:2.5.0:compile
+[DEBUG] [2019-03-26 14:10:11,361 +0000] - Read line #22: [INFO] |  +- com.ksa:ksa-bd-web:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,362 +0000] - Read line #23: [INFO] |  |  \- com.ksa:ksa-bd-service:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,362 +0000] - Read line #24: [INFO] |  \- org.apache.poi:poi:jar:3.8:compile
+[DEBUG] [2019-03-26 14:10:11,363 +0000] - Read line #25: [INFO] |     \- commons-codec:commons-codec:jar:1.5:compile
+[DEBUG] [2019-03-26 14:10:11,363 +0000] - Read line #26: [INFO] +- org.apache.geronimo.specs:geronimo-servlet_2.5_spec:jar:1.2:provided
+[DEBUG] [2019-03-26 14:10:11,363 +0000] - Read line #27: [INFO] +- org.apache.geronimo.specs:geronimo-jsp_2.1_spec:jar:1.0.1:provided
+[DEBUG] [2019-03-26 14:10:11,363 +0000] - Read line #28: [INFO] +- org.slf4j:slf4j-log4j12:jar:1.6.1:compile
+[DEBUG] [2019-03-26 14:10:11,364 +0000] - Read line #29: [INFO] +- log4j:log4j:jar:1.2.16:compile
+[DEBUG] [2019-03-26 14:10:11,364 +0000] - Read line #30: [INFO] +- org.sitemesh:sitemesh:jar:3.0-alpha-2:compile
+[DEBUG] [2019-03-26 14:10:11,364 +0000] - Read line #31: [INFO] +- org.apache.struts:struts2-core:jar:2.3.31:compile
+[DEBUG] [2019-03-26 14:10:11,364 +0000] - Read line #32: [INFO] |  +- org.apache.struts.xwork:xwork-core:jar:2.3.31:compile
+[DEBUG] [2019-03-26 14:10:11,365 +0000] - Read line #33: [INFO] |  |  +- asm:asm:jar:3.3:compile
+[DEBUG] [2019-03-26 14:10:11,367 +0000] - Read line #34: [INFO] |  |  \- asm:asm-commons:jar:3.3:compile
+[DEBUG] [2019-03-26 14:10:11,367 +0000] - Read line #35: [INFO] |  |     \- asm:asm-tree:jar:3.3:compile
+[DEBUG] [2019-03-26 14:10:11,367 +0000] - Read line #36: [INFO] |  +- org.freemarker:freemarker:jar:2.3.22:compile
+[DEBUG] [2019-03-26 14:10:11,367 +0000] - Read line #37: [INFO] |  +- ognl:ognl:jar:3.0.19:compile
+[DEBUG] [2019-03-26 14:10:11,368 +0000] - Read line #38: [INFO] |  |  \- javassist:javassist:jar:3.11.0.GA:compile
+[DEBUG] [2019-03-26 14:10:11,370 +0000] - Read line #39: [INFO] |  +- commons-fileupload:commons-fileupload:jar:1.2.2:compile
+[DEBUG] [2019-03-26 14:10:11,370 +0000] - Read line #40: [INFO] |  \- commons-io:commons-io:jar:2.1:compile
+[DEBUG] [2019-03-26 14:10:11,370 +0000] - Read line #41: [INFO] +- org.apache.struts:struts2-json-plugin:jar:2.3.31:compile
+[DEBUG] [2019-03-26 14:10:11,370 +0000] - Read line #42: [INFO] |  \- org.apache.commons:commons-lang3:jar:3.2:compile
+[DEBUG] [2019-03-26 14:10:11,370 +0000] - Read line #43: [INFO] +- org.apache.shiro:shiro-web:jar:1.2.0:compile
+[DEBUG] [2019-03-26 14:10:11,370 +0000] - Read line #44: [INFO] |  \- org.apache.shiro:shiro-core:jar:1.2.0:compile
+[DEBUG] [2019-03-26 14:10:11,370 +0000] - Read line #45: [INFO] |     \- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+[DEBUG] [2019-03-26 14:10:11,371 +0000] - Read line #46: [INFO] +- com.ksa:ksa-core:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,371 +0000] - Read line #47: [INFO] |  +- org.springframework:spring-core:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,371 +0000] - Read line #48: [INFO] |  |  +- org.springframework:spring-asm:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,372 +0000] - Read line #49: [INFO] |  |  \- commons-logging:commons-logging:jar:1.1.1:compile
+[DEBUG] [2019-03-26 14:10:11,396 +0000] - Read line #50: [INFO] |  +- org.springframework:spring-context:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,396 +0000] - Read line #51: [INFO] |  |  +- org.springframework:spring-aop:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,396 +0000] - Read line #52: [INFO] |  |  +- org.springframework:spring-beans:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,396 +0000] - Read line #53: [INFO] |  |  \- org.springframework:spring-expression:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,396 +0000] - Read line #54: [INFO] |  +- commons-lang:commons-lang:jar:2.6:compile
+[DEBUG] [2019-03-26 14:10:11,396 +0000] - Read line #55: [INFO] |  \- com.ksa:ksa-debug:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,397 +0000] - Read line #56: [INFO] |     +- commons-dbcp:commons-dbcp:jar:1.4:compile
+[DEBUG] [2019-03-26 14:10:11,397 +0000] - Read line #57: [INFO] |     |  \- commons-pool:commons-pool:jar:1.5.4:compile
+[DEBUG] [2019-03-26 14:10:11,397 +0000] - Read line #58: [INFO] |     +- com.h2database:h2:jar:1.3.162:compile
+[DEBUG] [2019-03-26 14:10:11,397 +0000] - Read line #59: [INFO] |     \- mysql:mysql-connector-java:jar:5.1.18:compile
+[DEBUG] [2019-03-26 14:10:11,397 +0000] - Read line #60: [INFO] +- com.ksa:ksa-web-core:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,397 +0000] - Read line #61: [INFO] |  +- org.springframework:spring-web:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,397 +0000] - Read line #62: [INFO] |  |  \- aopalliance:aopalliance:jar:1.0:compile
+[DEBUG] [2019-03-26 14:10:11,397 +0000] - Read line #63: [INFO] |  +- ro.isdc.wro4j:wro4j-core:jar:1.4.0:compile
+[DEBUG] [2019-03-26 14:10:11,397 +0000] - Read line #64: [INFO] |  +- com.ksa:ksa-dao-context:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,398 +0000] - Read line #65: [INFO] |  |  +- org.mybatis:mybatis:jar:3.1.1:compile
+[DEBUG] [2019-03-26 14:10:11,398 +0000] - Read line #66: [INFO] |  |  \- org.mybatis:mybatis-spring:jar:1.1.1:compile
+[DEBUG] [2019-03-26 14:10:11,398 +0000] - Read line #67: [INFO] |  |     +- org.springframework:spring-tx:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,399 +0000] - Read line #68: [INFO] |  |     \- org.springframework:spring-jdbc:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,399 +0000] - Read line #69: [INFO] |  \- commons-configuration:commons-configuration:jar:1.9:compile
+[DEBUG] [2019-03-26 14:10:11,399 +0000] - Read line #70: [INFO] +- org.slf4j:slf4j-api:jar:1.6.1:compile
+[DEBUG] [2019-03-26 14:10:11,399 +0000] - Read line #71: [INFO] \- junit:junit:jar:4.8.2:test
+[DEBUG] [2019-03-26 14:10:11,399 +0000] - Read line #72: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2019-03-26 14:10:11,399 +0000] - Read line #73: [INFO] BUILD SUCCESS
+[DEBUG] [2019-03-26 14:10:11,399 +0000] - Read line #74: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2019-03-26 14:10:11,399 +0000] - Read line #75: [INFO] Total time:  15.498 s
+[DEBUG] [2019-03-26 14:10:11,400 +0000] - Read line #76: [INFO] Finished at: 2019-03-26T14:10:11Z
+[DEBUG] [2019-03-26 14:10:11,400 +0000] - Read line #77: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2019-03-26 14:10:11,748 +0000] - Finished reading 77 lines
+[INFO] [2019-03-26 14:10:11,765 +0000] - Start parsing pom files
+[INFO] [2019-03-26 14:10:11,781 +0000] - End parsing pom files , found : ksa-finance-web
+[DEBUG] [2019-03-26 14:10:11,790 +0000] - converting node to dependency :ksa-finance-service
+[DEBUG] [2019-03-26 14:10:11,793 +0000] - converting node to dependency :ksa-finance-dao
+[DEBUG] [2019-03-26 14:10:11,805 +0000] - converting node to dependency :ksa-bd-dao
+[DEBUG] [2019-03-26 14:10:11,806 +0000] - converting node to dependency :ksa-logistics-web
+[DEBUG] [2019-03-26 14:10:11,806 +0000] - converting node to dependency :ksa-logistics-service
+[DEBUG] [2019-03-26 14:10:11,807 +0000] - converting node to dependency :ksa-logistics-dao
+[DEBUG] [2019-03-26 14:10:11,807 +0000] - converting node to dependency :ksa-security-web
+[DEBUG] [2019-03-26 14:10:11,808 +0000] - converting node to dependency :ksa-security-service
+[DEBUG] [2019-03-26 14:10:11,808 +0000] - converting node to dependency :ksa-security-dao
+[DEBUG] [2019-03-26 14:10:11,811 +0000] - converting node to dependency :shiro-ehcache
+[DEBUG] [2019-03-26 14:10:11,813 +0000] - converting node to dependency :ehcache-core
+[DEBUG] [2019-03-26 14:10:11,814 +0000] - converting node to dependency :ksa-bd-web
+[DEBUG] [2019-03-26 14:10:11,814 +0000] - converting node to dependency :ksa-bd-service
+[DEBUG] [2019-03-26 14:10:11,816 +0000] - converting node to dependency :poi
+[DEBUG] [2019-03-26 14:10:11,816 +0000] - converting node to dependency :commons-codec
+[DEBUG] [2019-03-26 14:10:11,817 +0000] - converting node to dependency :geronimo-servlet_2.5_spec
+[DEBUG] [2019-03-26 14:10:11,819 +0000] - converting node to dependency :geronimo-jsp_2.1_spec
+[DEBUG] [2019-03-26 14:10:11,820 +0000] - converting node to dependency :slf4j-log4j12
+[DEBUG] [2019-03-26 14:10:11,821 +0000] - converting node to dependency :log4j
+[DEBUG] [2019-03-26 14:10:11,822 +0000] - converting node to dependency :sitemesh
+[DEBUG] [2019-03-26 14:10:11,822 +0000] - converting node to dependency :struts2-core
+[DEBUG] [2019-03-26 14:10:11,831 +0000] - converting node to dependency :xwork-core
+[DEBUG] [2019-03-26 14:10:11,832 +0000] - converting node to dependency :asm
+[DEBUG] [2019-03-26 14:10:11,834 +0000] - converting node to dependency :asm-commons
+[DEBUG] [2019-03-26 14:10:11,835 +0000] - converting node to dependency :asm-tree
+[DEBUG] [2019-03-26 14:10:11,835 +0000] - converting node to dependency :freemarker
+[DEBUG] [2019-03-26 14:10:11,836 +0000] - converting node to dependency :ognl
+[DEBUG] [2019-03-26 14:10:11,837 +0000] - converting node to dependency :javassist
+[DEBUG] [2019-03-26 14:10:11,837 +0000] - converting node to dependency :commons-fileupload
+[DEBUG] [2019-03-26 14:10:11,838 +0000] - converting node to dependency :commons-io
+[DEBUG] [2019-03-26 14:10:11,839 +0000] - converting node to dependency :struts2-json-plugin
+[DEBUG] [2019-03-26 14:10:11,839 +0000] - converting node to dependency :commons-lang3
+[DEBUG] [2019-03-26 14:10:11,840 +0000] - converting node to dependency :shiro-web
+[DEBUG] [2019-03-26 14:10:11,840 +0000] - converting node to dependency :shiro-core
+[DEBUG] [2019-03-26 14:10:11,840 +0000] - converting node to dependency :commons-beanutils
+[DEBUG] [2019-03-26 14:10:11,841 +0000] - converting node to dependency :ksa-core
+[DEBUG] [2019-03-26 14:10:11,841 +0000] - converting node to dependency :spring-core
+[DEBUG] [2019-03-26 14:10:11,843 +0000] - converting node to dependency :spring-asm
+[DEBUG] [2019-03-26 14:10:11,844 +0000] - converting node to dependency :commons-logging
+[DEBUG] [2019-03-26 14:10:11,845 +0000] - converting node to dependency :spring-context
+[DEBUG] [2019-03-26 14:10:11,845 +0000] - converting node to dependency :spring-aop
+[DEBUG] [2019-03-26 14:10:11,847 +0000] - converting node to dependency :spring-beans
+[DEBUG] [2019-03-26 14:10:11,848 +0000] - converting node to dependency :spring-expression
+[DEBUG] [2019-03-26 14:10:11,849 +0000] - converting node to dependency :commons-lang
+[DEBUG] [2019-03-26 14:10:11,849 +0000] - converting node to dependency :ksa-debug
+[DEBUG] [2019-03-26 14:10:11,855 +0000] - converting node to dependency :commons-dbcp
+[DEBUG] [2019-03-26 14:10:11,856 +0000] - converting node to dependency :commons-pool
+[DEBUG] [2019-03-26 14:10:11,887 +0000] - converting node to dependency :h2
+[DEBUG] [2019-03-26 14:10:11,888 +0000] - converting node to dependency :mysql-connector-java
+[DEBUG] [2019-03-26 14:10:11,889 +0000] - converting node to dependency :ksa-web-core
+[DEBUG] [2019-03-26 14:10:11,890 +0000] - converting node to dependency :spring-web
+[DEBUG] [2019-03-26 14:10:11,894 +0000] - converting node to dependency :aopalliance
+[DEBUG] [2019-03-26 14:10:11,895 +0000] - converting node to dependency :wro4j-core
+[DEBUG] [2019-03-26 14:10:11,895 +0000] - converting node to dependency :ksa-dao-context
+[DEBUG] [2019-03-26 14:10:11,897 +0000] - converting node to dependency :mybatis
+[DEBUG] [2019-03-26 14:10:11,897 +0000] - converting node to dependency :mybatis-spring
+[DEBUG] [2019-03-26 14:10:11,897 +0000] - converting node to dependency :spring-tx
+[DEBUG] [2019-03-26 14:10:11,898 +0000] - converting node to dependency :spring-jdbc
+[DEBUG] [2019-03-26 14:10:11,898 +0000] - converting node to dependency :commons-configuration
+[DEBUG] [2019-03-26 14:10:11,899 +0000] - converting node to dependency :slf4j-api
+[DEBUG] [2019-03-26 14:10:11,900 +0000] - converting node to dependency :junit
+[DEBUG] [2019-03-26 14:10:12,115 +0000] - Project/Module coordinates: Coordinates@fd5519a[groupId= com.ksa,artifactId= ksa-finance-web,version= 3.9.0 ]
+[DEBUG] [2019-03-26 14:10:12,116 +0000] - Total project direct dependencies found : 14
+[DEBUG] [2019-03-26 14:10:12,119 +0000] - ProjectInfo direct dependency added : 14
+[INFO] [2019-03-26 14:10:12,205 +0000] - 
+------------------------------------------------------------------------
+-------------------- End: Pre-Step & Resolve Dependencies ------------

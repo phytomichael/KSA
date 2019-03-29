@@ -1,0 +1,327 @@
+[INFO] [2019-03-26 14:09:43,145 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Fetch Configuration ------------------------
+------------------------------------------------------------------------
+[INFO] [2019-03-26 14:09:43,389 +0000] - FSA Configuration {
+projectPerFolder=false
+connectionTimeOut=60
+checkPolicies=false
+serviceUrl=https://app-eu.whitesourcesoftware.com/agent
+forceCheckAllDependencies=false
+forceUpdate=false
+forceUpdateFailBuildOnPolicyViolation=false
+updateTypeValue=OVERRIDE
+updateInventory=true
+generateScanReport=false
+scanReportTimeoutMinutes=10
+analyzeFrameworks=true
+analyzeFrameworkIds=[]
+offline=false
+zip=false
+prettyJson=true
+resolveAllDependencies=true
+ignoreSourceFiles=false
+npm: {npmRunPreStep=false, appPath=[C:/Users/phyto/Documents/Source/KSA/ksa/ksa/ksa-web-core/target/ksa-web-core-3.9.0.jar]
+npmIgnoreScripts=false, npmResolveDependencies=true, npmIncludeDevDependencies=true, npmTimeoutDependenciesCollector=60, npmIgnoreNpmLsErrors=true, npmYarnProject=false, npmYarnFrozenLockfile=false, npmIgnoreSourceFiles=true, npmIdentifyByNameAndVersion=false, npmProjectNameFromDependencyFile=false, }
+bower: {bowerResolveDependencies=false, bowerRunPreStep=false, bowerIgnoreSourceFiles=false, }
+nuget: {nugetResolveDependencies=false, nugetRestoreDependencies=false, nugetRunPreStep=false, nugetIgnoreSourceFiles=true, nugetResolvePackagesConfigFiles=true, nugetResolveCsProjFiles=true, nugetResolveNuspecFiles=true, nugetPreferredEnvironment=, nugetPackagesDirectory=, }
+maven: {mavenResolveDependencies=true, mavenIgnoredScopes=[All], mavenAggregateModules=true, mavenIgnorePomModules=true, mavenIgnoreSourceFiles=false, mavenRunPreStep=false, mavenIgnoreDependencyTreeErrors=false, mavenEnvironmentPath=, mavenM2Path=, }
+python: {pythonResolveDependencies=false, pipPath=pip, pythonPath=python, pythonIgnorePipInstallErrors=false, pythonInstallVirtualenv=false, pythonResolveHierarchyTree=true, pythonRequirementsFileIncludes=[requirements.txt, Pipfile], pythonResolveSetupPyFiles=false, pythonIgnoreSourceFiles=true, ignorePipEnvInstallErrors=false, pipenvInstallDevDependencies=false, runPipenvPreStep=false, pythonIsWssPluginInstalled=false, pythonUninstallWssPlugin=false, }
+gradle: {gradleResolveDependencies=true, gradleRunAssembleCommand=true, gradleAggregateModules=true, gradlePreferredEnvironment=gradle, gradleLocalRepositoryPath=, gradleIgnoreSourceFiles=false, gradleRunPreStep=false, gradleIgnoredScopes=[], }
+paket: {paketResolveDependencies=false, paketIgnoredScopes=, paketRunPreStep=false, paketPath=, paketIgnoreSourceFiles=true, }
+go: {goResolveDependencies=false, goDependencyManager=, goCollectDependenciesAtRuntime=false, goGlideIgnoreTestPackages=true, goGlideIgnoreSourceFiles=false, goGradleEnableTaskAlias=false, }
+ruby: {rubyResolveDependencies=false, rubyRunBundleInstall=false, rubyOverwriteGemFile=false, rubyInstallMissingGems=false, rubyIgnoreSourceFiles=true, }
+php: {phpResolveDependencies=false, phpRunPreStep=false, phpIncludeDevDependencies=false, }
+sbt: {sbtResolveDependencies=false, sbtAggregateModules=false, sbtRunPreStep=false, sbtTargetFolder=[], sbtIgnoreSourceFiles=false, }
+html: {htmlResolveDependencies=false, }
+cocoapods: {cocoapodsResolveDependencies=false, cocoapodsRunPreStep=false, cocoapodsIgnoreSourceFiles=true, }
+hex: {hexResolveDependencies=false, hexRunPreStep=false, hexAggregateModules=false, hexIgnoreSourceFiles=true, }
+imageNames=
+imageTags=
+imageDigests=
+forceDelete=false
+remoteDockerEnabled=false
+maxScanImages=0
+forcePull=false
+maxPullImages=10
+loginSudo=true
+amazonRegistryIds=[]
+remoteDockerAmazonEnabled=false
+amazonRegion=east
+amazonMaxPullImages=0
+remoteDockerAzureEnabled=false
+azureUserName=
+azureUserPassword=
+azureRegistryNames=[]
+remoteDockerArtifactoryEnabled=false
+artifactoryUrl=
+artifactoryUserName=
+artifactoryUserPassword=
+artifactoryRepositoryNames=[]
+remoteDockerGoogleContainerEnabled=false
+googleRepositoryNames=[]
+googleActiveAccount=
+serverlessConfiguration=
+fileListPath=
+dependencyDirs=[C:/Users/phyto/Documents/Source/KSA/ksa/ksa/ksa-web-core]
+configFilePath=C:\Users\phyto\Documents\Source\KSA\whitesource-fs-agent.config
+includes=[**/*.jar, **/*.js]
+excludes=[**/*sources.jar, **/*javadoc.jar]
+dockerIncludes=[.*.*]
+dockerExcludes=[]
+dockerContainerIncludes=[.*.*]
+dockerContainerExcludes=[]
+pythonRequirementsFileIncludes=[requirements.txt]
+archiveExtractionDepth=0
+archiveIncludes=[]
+archiveExcludes=[]
+followSymlinks=true
+dockerScan=false
+globCaseSensitive=false
+projectPerFolderIncludes=[*]
+projectPerFolderExcludes=[]
+excludeDependenciesFromNodes=[]
+enableGenerateProjectDetailsJson=false
+apiToken=******
+userKey=
+projectVersion=
+projectToken=
+projectPerSubFolder=false
+requesterEmail=
+productToken=
+productName=Effective_Usage_Demo_9
+productVersion=
+projectName=ksa-web-core
+scanComment=
+requireKnownSha1=false
+scanPackageManager=false
+scanDockerImages=false
+scanDockerContainers=false
+scanServerlessFunctions=false
+logLevel=debug
+}
+[INFO] [2019-03-26 14:09:43,391 +0000] - 
+------------------------------------------------------------------------
+-------------------- End: Fetch Configuration --------------------------
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 14:09:43,474 +0000] - Available processors (cores): 	8
+Free memory (Mb): 	108
+Max memory (Mb): 	1785
+Total memory (Mb): 	121
+Used memory (Mb): 	12
+[INFO] [2019-03-26 14:09:43,476 +0000] - Starting analysis
+[INFO] [2019-03-26 14:09:43,476 +0000] - Scanning directories [C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-core] for package dependencies (may take a few minutes)
+[INFO] [2019-03-26 14:09:43,478 +0000] - Included file types: **/*.jar,**/*.js
+[INFO] [2019-03-26 14:09:43,478 +0000] - Excluded file types: **/*sources.jar,**/*javadoc.jar
+[INFO] [2019-03-26 14:09:43,478 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching 'Includes' Pattern -----
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 14:09:43,479 +0000] - Scanning C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-core
+[INFO] [2019-03-26 14:09:43,575 +0000] - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching 'Includes' Pattern -------
+------------------------------------------------------------------------
+[INFO] [2019-03-26 14:09:43,579 +0000] - Attempting to resolve dependencies
+[INFO] [2019-03-26 14:09:43,579 +0000] - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step & Resolve Dependencies ------------
+------------------------------------------------------------------------
+[DEBUG] [2019-03-26 14:09:43,665 +0000] - found folders:
+[DEBUG] [2019-03-26 14:09:43,669 +0000] - C:\Users\phyto\Documents\Source\KSA\ksa\ksa
+[DEBUG] [2019-03-26 14:09:43,670 +0000] - 
+[DEBUG] [2019-03-26 14:09:43,679 +0000] - 
+[DEBUG] [2019-03-26 14:09:43,682 +0000] - Finishing reduce dependencies
+[INFO] [2019-03-26 14:09:43,684 +0000] - Trying to resolve MAVEN dependencies
+[INFO] [2019-03-26 14:09:43,686 +0000] - topFolder = C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-core
+[DEBUG] [2019-03-26 14:09:43,686 +0000] - topFolder = C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-core
+[DEBUG] [2019-03-26 14:09:43,970 +0000] - start execute command 'cmd /c mvn -v' in 'C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-core'
+[DEBUG] [2019-03-26 14:09:43,982 +0000] - trying to read lines using 'cmd /c mvn -v'
+[DEBUG] [2019-03-26 14:09:45,229 +0000] - Read line #1: Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T19:41:47+01:00)
+[DEBUG] [2019-03-26 14:09:45,230 +0000] - Read line #2: Maven home: C:\Users\phyto\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\..
+[DEBUG] [2019-03-26 14:09:45,230 +0000] - Read line #3: Java version: 1.8.0_181, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_181\jre
+[DEBUG] [2019-03-26 14:09:45,230 +0000] - Read line #4: Default locale: en_GB, platform encoding: Cp1252
+[DEBUG] [2019-03-26 14:09:45,231 +0000] - Read line #5: OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] [2019-03-26 14:09:45,871 +0000] - Finished reading 5 lines
+[DEBUG] [2019-03-26 14:09:45,874 +0000] - Maven : [Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T19:41:47+01:00), Maven home: C:\Users\phyto\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\.., Java version: 1.8.0_181, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_181\jre, Default locale: en_GB, platform encoding: Cp1252, OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"]
+[DEBUG] [2019-03-26 14:09:45,875 +0000] - start execute command 'cmd /c mvn -T1 dependency:tree -B' in 'C:\Users\phyto\Documents\Source\KSA\ksa\ksa\ksa-web-core'
+[DEBUG] [2019-03-26 14:09:45,880 +0000] - trying to read lines using 'cmd /c mvn -T1 dependency:tree -B'
+[DEBUG] [2019-03-26 14:09:51,343 +0000] - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2019-03-26 14:09:54,620 +0000] - Read line #2: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.5/maven-deploy-plugin-2.5.pom
+[DEBUG] [2019-03-26 14:09:56,307 +0000] - Read line #3: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.5/maven-deploy-plugin-2.5.pom (5.7 kB at 3.3 kB/s)
+[DEBUG] [2019-03-26 14:09:56,955 +0000] - Read line #4: [INFO] 
+[DEBUG] [2019-03-26 14:09:56,960 +0000] - Read line #5: [INFO] ------------------------< com.ksa:ksa-web-core >------------------------
+[DEBUG] [2019-03-26 14:09:56,963 +0000] - Read line #6: [INFO] Building ksa-web-core 3.9.0
+[DEBUG] [2019-03-26 14:09:57,005 +0000] - Read line #7: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2019-03-26 14:10:00,597 +0000] - Read line #8: [INFO] 
+[DEBUG] [2019-03-26 14:10:00,602 +0000] - Read line #9: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ ksa-web-core ---
+[DEBUG] [2019-03-26 14:10:01,984 +0000] - Read line #10: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.pom
+[DEBUG] [2019-03-26 14:10:02,054 +0000] - Read line #11: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.pom (2.7 kB at 38 kB/s)
+[DEBUG] [2019-03-26 14:10:02,073 +0000] - Read line #12: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.pom
+[DEBUG] [2019-03-26 14:10:02,102 +0000] - Read line #13: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.pom (2.2 kB at 77 kB/s)
+[DEBUG] [2019-03-26 14:10:02,133 +0000] - Read line #14: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.pom
+[DEBUG] [2019-03-26 14:10:02,219 +0000] - Read line #15: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.pom (1.6 kB at 16 kB/s)
+[DEBUG] [2019-03-26 14:10:02,598 +0000] - Read line #16: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom
+[DEBUG] [2019-03-26 14:10:03,350 +0000] - Read line #17: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom (5.9 kB at 7.8 kB/s)
+[DEBUG] [2019-03-26 14:10:03,657 +0000] - Read line #18: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom
+[DEBUG] [2019-03-26 14:10:03,776 +0000] - Read line #19: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:03,790 +0000] - Read line #20: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/2.0.2/xml-apis-2.0.2.pom
+[DEBUG] [2019-03-26 14:10:03,908 +0000] - Read line #21: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/2.0.2/xml-apis-2.0.2.pom (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:04,007 +0000] - Read line #22: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.3/plexus-3.3.pom
+[DEBUG] [2019-03-26 14:10:04,241 +0000] - Read line #23: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.3/plexus-3.3.pom (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:04,325 +0000] - Read line #24: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom
+[DEBUG] [2019-03-26 14:10:04,439 +0000] - Read line #25: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:04,477 +0000] - Read line #26: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom
+[DEBUG] [2019-03-26 14:10:04,523 +0000] - Read line #27: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom (2.7 kB at 62 kB/s)
+[DEBUG] [2019-03-26 14:10:04,553 +0000] - Read line #28: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/7/maven-parent-7.pom
+[DEBUG] [2019-03-26 14:10:04,612 +0000] - Read line #29: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/7/maven-parent-7.pom (21 kB at 366 kB/s)
+[DEBUG] [2019-03-26 14:10:04,694 +0000] - Read line #30: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.2/maven-2.0.2.pom
+[DEBUG] [2019-03-26 14:10:04,799 +0000] - Read line #31: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.2/maven-2.0.2.pom (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:04,820 +0000] - Read line #32: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.2/maven-repository-metadata-2.0.2.pom
+[DEBUG] [2019-03-26 14:10:04,934 +0000] - Read line #33: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.2/maven-repository-metadata-2.0.2.pom (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:04,990 +0000] - Read line #34: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.pom
+[DEBUG] [2019-03-26 14:10:05,108 +0000] - Read line #35: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.pom (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:05,134 +0000] - Read line #36: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+[DEBUG] [2019-03-26 14:10:05,248 +0000] - Read line #37: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:05,323 +0000] - Read line #38: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.5/maven-settings-2.0.5.pom
+[DEBUG] [2019-03-26 14:10:05,359 +0000] - Read line #39: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.5/maven-settings-2.0.5.pom (1.7 kB at 48 kB/s)
+[DEBUG] [2019-03-26 14:10:05,376 +0000] - Read line #40: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom
+[DEBUG] [2019-03-26 14:10:05,452 +0000] - Read line #41: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom (2.7 kB at 33 kB/s)
+[DEBUG] [2019-03-26 14:10:05,485 +0000] - Read line #42: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.5/maven-artifact-manager-2.0.5.pom
+[DEBUG] [2019-03-26 14:10:05,602 +0000] - Read line #43: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.5/maven-artifact-manager-2.0.5.pom (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:05,629 +0000] - Read line #44: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1.pom
+[DEBUG] [2019-03-26 14:10:05,666 +0000] - Read line #45: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1.pom (6.8 kB at 179 kB/s)
+[DEBUG] [2019-03-26 14:10:05,681 +0000] - Read line #46: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.2.0/maven-project-2.2.0.pom
+[DEBUG] [2019-03-26 14:10:05,714 +0000] - Read line #47: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.2.0/maven-project-2.2.0.pom (2.8 kB at 84 kB/s)
+[DEBUG] [2019-03-26 14:10:05,725 +0000] - Read line #48: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.2.0/maven-2.2.0.pom
+[DEBUG] [2019-03-26 14:10:05,854 +0000] - Read line #49: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.2.0/maven-2.2.0.pom (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:06,019 +0000] - Read line #50: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.2.0/maven-repository-metadata-2.2.0.pom
+[DEBUG] [2019-03-26 14:10:06,158 +0000] - Read line #51: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.2.0/maven-repository-metadata-2.2.0.pom (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:06,163 +0000] - Read line #52: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom
+[DEBUG] [2019-03-26 14:10:06,272 +0000] - Read line #53: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:06,299 +0000] - Read line #54: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.pom
+[DEBUG] [2019-03-26 14:10:06,412 +0000] - Read line #55: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.pom (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:06,537 +0000] - Read line #56: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.8/maven-2.0.8.pom
+[DEBUG] [2019-03-26 14:10:06,652 +0000] - Read line #57: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.8/maven-2.0.8.pom (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:06,697 +0000] - Read line #58: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.8/maven-settings-2.0.8.pom
+[DEBUG] [2019-03-26 14:10:06,727 +0000] - Read line #59: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.8/maven-settings-2.0.8.pom (2.1 kB at 69 kB/s)
+[DEBUG] [2019-03-26 14:10:06,741 +0000] - Read line #60: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.8/maven-profile-2.0.8.pom
+[DEBUG] [2019-03-26 14:10:06,770 +0000] - Read line #61: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.8/maven-profile-2.0.8.pom (2.0 kB at 68 kB/s)
+[DEBUG] [2019-03-26 14:10:06,785 +0000] - Read line #62: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.8/maven-artifact-manager-2.0.8.pom
+[DEBUG] [2019-03-26 14:10:06,814 +0000] - Read line #63: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.8/maven-artifact-manager-2.0.8.pom (2.7 kB at 90 kB/s)
+[DEBUG] [2019-03-26 14:10:06,829 +0000] - Read line #64: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.8/maven-repository-metadata-2.0.8.pom
+[DEBUG] [2019-03-26 14:10:06,864 +0000] - Read line #65: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.8/maven-repository-metadata-2.0.8.pom (1.9 kB at 54 kB/s)
+[DEBUG] [2019-03-26 14:10:06,880 +0000] - Read line #66: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.pom
+[DEBUG] [2019-03-26 14:10:07,012 +0000] - Read line #67: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.pom (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:07,913 +0000] - Read line #68: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.jar
+[DEBUG] [2019-03-26 14:10:07,991 +0000] - Read line #69: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.4/commons-io-1.4.jar
+[DEBUG] [2019-03-26 14:10:08,007 +0000] - Read line #70: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.jar
+[DEBUG] [2019-03-26 14:10:08,031 +0000] - Read line #71: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar
+[DEBUG] [2019-03-26 14:10:08,096 +0000] - Read line #72: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.jar
+[DEBUG] [2019-03-26 14:10:08,173 +0000] - Read line #73: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:08,176 +0000] - Read line #74: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar
+[DEBUG] [2019-03-26 14:10:08,217 +0000] - Read line #75: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar (11 kB at 24 kB/s)
+[DEBUG] [2019-03-26 14:10:08,217 +0000] - Read line #76: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar
+[DEBUG] [2019-03-26 14:10:08,260 +0000] - Read line #77: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar (91 kB at 180 kB/s)
+[DEBUG] [2019-03-26 14:10:08,260 +0000] - Read line #78: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.6/commons-digester-1.6.jar
+[DEBUG] [2019-03-26 14:10:08,265 +0000] - Read line #79: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:08,278 +0000] - Read line #80: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar
+[DEBUG] [2019-03-26 14:10:08,279 +0000] - Read line #81: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.4/commons-io-1.4.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:08,282 +0000] - Read line #82: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar
+[DEBUG] [2019-03-26 14:10:08,362 +0000] - Read line #83: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.6/commons-digester-1.6.jar (168 kB at 281 kB/s)
+[DEBUG] [2019-03-26 14:10:08,363 +0000] - Read line #84: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar
+[DEBUG] [2019-03-26 14:10:08,490 +0000] - Read line #85: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar (109 kB at 149 kB/s)
+[DEBUG] [2019-03-26 14:10:08,491 +0000] - Read line #86: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar
+[DEBUG] [2019-03-26 14:10:08,512 +0000] - Read line #87: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:08,545 +0000] - Read line #88: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.jar
+[DEBUG] [2019-03-26 14:10:08,546 +0000] - Read line #89: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:08,547 +0000] - Read line #90: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar
+[DEBUG] [2019-03-26 14:10:08,584 +0000] - Read line #91: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar (10 kB at 12 kB/s)
+[DEBUG] [2019-03-26 14:10:08,597 +0000] - Read line #92: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar
+[DEBUG] [2019-03-26 14:10:08,621 +0000] - Read line #93: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.jar (47 kB at 54 kB/s)
+[DEBUG] [2019-03-26 14:10:08,623 +0000] - Read line #94: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.5/velocity-1.5.jar
+[DEBUG] [2019-03-26 14:10:08,624 +0000] - Read line #95: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:08,627 +0000] - Read line #96: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.jar
+[DEBUG] [2019-03-26 14:10:08,660 +0000] - Read line #97: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:08,662 +0000] - Read line #98: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.jar
+[DEBUG] [2019-03-26 14:10:08,680 +0000] - Read line #99: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:08,683 +0000] - Read line #100: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.jar
+[DEBUG] [2019-03-26 14:10:08,706 +0000] - Read line #101: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:08,719 +0000] - Read line #102: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.jar
+[DEBUG] [2019-03-26 14:10:08,827 +0000] - Read line #103: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.5/velocity-1.5.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:08,829 +0000] - Read line #104: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.jar (19 kB at 19 kB/s)
+[DEBUG] [2019-03-26 14:10:08,831 +0000] - Read line #105: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.jar
+[DEBUG] [2019-03-26 14:10:08,848 +0000] - Read line #106: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.jar
+[DEBUG] [2019-03-26 14:10:08,864 +0000] - Read line #107: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:08,866 +0000] - Read line #108: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.jar
+[DEBUG] [2019-03-26 14:10:08,870 +0000] - Read line #109: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:08,870 +0000] - Read line #110: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar
+[DEBUG] [2019-03-26 14:10:08,873 +0000] - Read line #111: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:08,892 +0000] - Read line #112: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar
+[DEBUG] [2019-03-26 14:10:08,907 +0000] - Read line #113: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.jar (186 kB at 164 kB/s)
+[DEBUG] [2019-03-26 14:10:08,908 +0000] - Read line #114: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar
+[DEBUG] [2019-03-26 14:10:08,987 +0000] - Read line #115: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:08,988 +0000] - Read line #116: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.jar
+[DEBUG] [2019-03-26 14:10:09,065 +0000] - Read line #117: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:09,067 +0000] - Read line #118: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:09,068 +0000] - Read line #119: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.jar
+[DEBUG] [2019-03-26 14:10:09,119 +0000] - Read line #120: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar
+[DEBUG] [2019-03-26 14:10:09,120 +0000] - Read line #121: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:09,121 +0000] - Read line #122: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.jar (232 kB at 184 kB/s)
+[DEBUG] [2019-03-26 14:10:09,124 +0000] - Read line #123: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1.jar
+[DEBUG] [2019-03-26 14:10:09,129 +0000] - Read line #124: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.jar (27 kB at 20 kB/s)
+[DEBUG] [2019-03-26 14:10:09,131 +0000] - Read line #125: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:09,131 +0000] - Read line #126: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.4/maven-common-artifact-filters-1.4.jar
+[DEBUG] [2019-03-26 14:10:09,131 +0000] - Read line #127: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar
+[DEBUG] [2019-03-26 14:10:09,132 +0000] - Read line #128: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.jar
+[DEBUG] [2019-03-26 14:10:09,196 +0000] - Read line #129: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.jar (29 kB at 20 kB/s)
+[DEBUG] [2019-03-26 14:10:09,239 +0000] - Read line #130: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:09,242 +0000] - Read line #131: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:09,243 +0000] - Read line #132: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:09,291 +0000] - Read line #133: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.4/maven-common-artifact-filters-1.4.jar (0 B at 0 B/s)
+[DEBUG] [2019-03-26 14:10:11,307 +0000] - Read line #134: [INFO] com.ksa:ksa-web-core:jar:3.9.0
+[DEBUG] [2019-03-26 14:10:11,309 +0000] - Read line #135: [INFO] +- org.apache.geronimo.specs:geronimo-servlet_2.5_spec:jar:1.2:provided
+[DEBUG] [2019-03-26 14:10:11,310 +0000] - Read line #136: [INFO] +- org.apache.geronimo.specs:geronimo-jsp_2.1_spec:jar:1.0.1:provided
+[DEBUG] [2019-03-26 14:10:11,310 +0000] - Read line #137: [INFO] +- org.springframework:spring-web:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,324 +0000] - Read line #138: [INFO] |  +- aopalliance:aopalliance:jar:1.0:compile
+[DEBUG] [2019-03-26 14:10:11,325 +0000] - Read line #139: [INFO] |  +- org.springframework:spring-beans:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,325 +0000] - Read line #140: [INFO] |  +- org.springframework:spring-context:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,328 +0000] - Read line #141: [INFO] |  |  +- org.springframework:spring-aop:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,329 +0000] - Read line #142: [INFO] |  |  +- org.springframework:spring-expression:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,329 +0000] - Read line #143: [INFO] |  |  \- org.springframework:spring-asm:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,330 +0000] - Read line #144: [INFO] |  \- org.springframework:spring-core:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,333 +0000] - Read line #145: [INFO] +- org.apache.struts:struts2-core:jar:2.3.31:compile
+[DEBUG] [2019-03-26 14:10:11,379 +0000] - Read line #146: [INFO] |  +- org.apache.struts.xwork:xwork-core:jar:2.3.31:compile
+[DEBUG] [2019-03-26 14:10:11,394 +0000] - Read line #147: [INFO] |  |  +- asm:asm:jar:3.3:compile
+[DEBUG] [2019-03-26 14:10:11,394 +0000] - Read line #148: [INFO] |  |  \- asm:asm-commons:jar:3.3:compile
+[DEBUG] [2019-03-26 14:10:11,395 +0000] - Read line #149: [INFO] |  |     \- asm:asm-tree:jar:3.3:compile
+[DEBUG] [2019-03-26 14:10:11,396 +0000] - Read line #150: [INFO] |  +- org.freemarker:freemarker:jar:2.3.22:compile
+[DEBUG] [2019-03-26 14:10:11,398 +0000] - Read line #151: [INFO] |  +- ognl:ognl:jar:3.0.19:compile
+[DEBUG] [2019-03-26 14:10:11,400 +0000] - Read line #152: [INFO] |  |  \- javassist:javassist:jar:3.11.0.GA:compile
+[DEBUG] [2019-03-26 14:10:11,401 +0000] - Read line #153: [INFO] |  +- commons-fileupload:commons-fileupload:jar:1.2.2:compile
+[DEBUG] [2019-03-26 14:10:11,401 +0000] - Read line #154: [INFO] |  \- commons-io:commons-io:jar:2.1:compile
+[DEBUG] [2019-03-26 14:10:11,401 +0000] - Read line #155: [INFO] +- org.apache.struts:struts2-json-plugin:jar:2.3.31:compile
+[DEBUG] [2019-03-26 14:10:11,401 +0000] - Read line #156: [INFO] |  \- org.apache.commons:commons-lang3:jar:3.2:compile
+[DEBUG] [2019-03-26 14:10:11,402 +0000] - Read line #157: [INFO] +- ro.isdc.wro4j:wro4j-core:jar:1.4.0:compile
+[DEBUG] [2019-03-26 14:10:11,402 +0000] - Read line #158: [INFO] |  \- commons-lang:commons-lang:jar:2.6:compile
+[DEBUG] [2019-03-26 14:10:11,402 +0000] - Read line #159: [INFO] +- org.apache.shiro:shiro-web:jar:1.2.0:compile
+[DEBUG] [2019-03-26 14:10:11,402 +0000] - Read line #160: [INFO] |  \- org.apache.shiro:shiro-core:jar:1.2.0:compile
+[DEBUG] [2019-03-26 14:10:11,402 +0000] - Read line #161: [INFO] |     \- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+[DEBUG] [2019-03-26 14:10:11,402 +0000] - Read line #162: [INFO] +- com.ksa:ksa-core:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,403 +0000] - Read line #163: [INFO] |  \- com.ksa:ksa-debug:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,403 +0000] - Read line #164: [INFO] |     +- commons-dbcp:commons-dbcp:jar:1.4:compile
+[DEBUG] [2019-03-26 14:10:11,404 +0000] - Read line #165: [INFO] |     |  \- commons-pool:commons-pool:jar:1.5.4:compile
+[DEBUG] [2019-03-26 14:10:11,405 +0000] - Read line #166: [INFO] |     +- com.h2database:h2:jar:1.3.162:compile
+[DEBUG] [2019-03-26 14:10:11,405 +0000] - Read line #167: [INFO] |     \- mysql:mysql-connector-java:jar:5.1.18:compile
+[DEBUG] [2019-03-26 14:10:11,405 +0000] - Read line #168: [INFO] +- com.ksa:ksa-dao-context:jar:3.9.0:compile
+[DEBUG] [2019-03-26 14:10:11,406 +0000] - Read line #169: [INFO] |  +- org.mybatis:mybatis:jar:3.1.1:compile
+[DEBUG] [2019-03-26 14:10:11,406 +0000] - Read line #170: [INFO] |  \- org.mybatis:mybatis-spring:jar:1.1.1:compile
+[DEBUG] [2019-03-26 14:10:11,406 +0000] - Read line #171: [INFO] |     +- org.springframework:spring-tx:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,407 +0000] - Read line #172: [INFO] |     \- org.springframework:spring-jdbc:jar:3.1.1.RELEASE:compile
+[DEBUG] [2019-03-26 14:10:11,407 +0000] - Read line #173: [INFO] +- commons-configuration:commons-configuration:jar:1.9:compile
+[DEBUG] [2019-03-26 14:10:11,407 +0000] - Read line #174: [INFO] |  \- commons-logging:commons-logging:jar:1.1.1:compile
+[DEBUG] [2019-03-26 14:10:11,410 +0000] - Read line #175: [INFO] +- org.slf4j:slf4j-api:jar:1.6.1:compile
+[DEBUG] [2019-03-26 14:10:11,411 +0000] - Read line #176: [INFO] +- junit:junit:jar:4.8.2:test
+[DEBUG] [2019-03-26 14:10:11,411 +0000] - Read line #177: [INFO] +- org.slf4j:slf4j-log4j12:jar:1.6.1:test
+[DEBUG] [2019-03-26 14:10:11,411 +0000] - Read line #178: [INFO] \- log4j:log4j:jar:1.2.16:test
+[DEBUG] [2019-03-26 14:10:11,411 +0000] - Read line #179: [INFO] ----------------------------------------------------
